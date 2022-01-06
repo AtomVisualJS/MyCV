@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MyCV/static/css/main.b8c3b56b.chunk.css",
-    "main.js": "/MyCV/static/js/main.2b0c9f04.chunk.js",
-    "main.js.map": "/MyCV/static/js/main.2b0c9f04.chunk.js.map",
+    "main.css": "/MyCV/static/css/main.5c3a046c.chunk.css",
+    "main.js": "/MyCV/static/js/main.d918ecd0.chunk.js",
+    "main.js.map": "/MyCV/static/js/main.d918ecd0.chunk.js.map",
     "runtime-main.js": "/MyCV/static/js/runtime-main.a8d0aa60.js",
     "runtime-main.js.map": "/MyCV/static/js/runtime-main.a8d0aa60.js.map",
     "static/css/2.7ab6f613.chunk.css": "/MyCV/static/css/2.7ab6f613.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b5f84b4a.chunk.js.map": "/MyCV/static/js/2.b5f84b4a.chunk.js.map",
     "index.html": "/MyCV/index.html",
     "static/css/2.7ab6f613.chunk.css.map": "/MyCV/static/css/2.7ab6f613.chunk.css.map",
-    "static/css/main.b8c3b56b.chunk.css.map": "/MyCV/static/css/main.b8c3b56b.chunk.css.map",
+    "static/css/main.5c3a046c.chunk.css.map": "/MyCV/static/css/main.5c3a046c.chunk.css.map",
     "static/js/2.b5f84b4a.chunk.js.LICENSE.txt": "/MyCV/static/js/2.b5f84b4a.chunk.js.LICENSE.txt",
     "static/media/clouds.png": "/MyCV/static/media/clouds.3c700c13.png",
     "static/media/fog-low.png": "/MyCV/static/media/fog-low.965eab52.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.a8d0aa60.js",
     "static/css/2.7ab6f613.chunk.css",
     "static/js/2.b5f84b4a.chunk.js",
-    "static/css/main.b8c3b56b.chunk.css",
-    "static/js/main.2b0c9f04.chunk.js"
+    "static/css/main.5c3a046c.chunk.css",
+    "static/js/main.d918ecd0.chunk.js"
   ]
 }
