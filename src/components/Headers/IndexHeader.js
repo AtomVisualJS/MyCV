@@ -19,7 +19,8 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="wrapper">
-              <div className="typing-demo">Javascript,Python,Marketing</div>
+              <div className="typing-demo">Javascript,Python,
+              <br />Marketing</div>
 
               <div className="fog-low">
                 <img
