@@ -48,7 +48,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/MyCV"
+            href="/"
             target="_blank"
             title="Mathieu Vialatte"
           >
@@ -90,13 +90,10 @@ function IndexNavbar() {
                 target="_blank"
                 title="Envoyer un Mail"
               >
-                <a
-                  style={{ textDecoration: "none" }}
-                  href="mailto: atomvisualjs@gmail.com"
-                >
+                
                   <i className="fa fa-google" aria-hidden="true"></i>
                   <p className="d-lg-none">Gmail</p>
-                </a>
+                
               </NavLink>
             </NavItem>
             <NavItem>
