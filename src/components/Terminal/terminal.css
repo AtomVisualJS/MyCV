@@ -1,5 +1,5 @@
 #terminalbody {
-    background-color: #272727;
+    background-color: transparent;
     padding: 10px;
   }
   
@@ -34,6 +34,7 @@
     height: 25px;
     background-color: #bbb;
     margin: 0 auto;
+    top: 20px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }

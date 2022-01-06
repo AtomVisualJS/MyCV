@@ -5,8 +5,7 @@ import Aos from "aos";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import CompetencesJS from "components/Competences/CompetencesJS";
-import Terminal from "components/Terminal/terminal";
+import Profile from "components/Profile/profile";
 
 
 Aos.init();
@@ -22,10 +21,7 @@ function Index() {
     <>
       <IndexNavbar />
       <IndexHeader />
-      
-      <Terminal />
-
-      <CompetencesJS />
+      <Profile />
     </>
   );
 }

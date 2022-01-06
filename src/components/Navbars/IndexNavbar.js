@@ -48,9 +48,9 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/"
+            href="/MyCV"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Mathieu Vialatte"
           >
             Mathieu Vialatte
           </NavbarBrand>
@@ -79,7 +79,7 @@ function IndexNavbar() {
                 target="_blank"
                 title="Voir mon LikedIn"
               >
-               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                 <p className="d-lg-none">LinkedIn</p>
               </NavLink>
             </NavItem>
@@ -90,14 +90,19 @@ function IndexNavbar() {
                 target="_blank"
                 title="Envoyer un Mail"
               >
-                <i className="fa fa-google" aria-hidden="true"></i>
-                <p className="d-lg-none">Gmail</p>
+                <a
+                  style={{ textDecoration: "none" }}
+                  href="mailto: atomvisualjs@gmail.com"
+                >
+                  <i className="fa fa-google" aria-hidden="true"></i>
+                  <p className="d-lg-none">Gmail</p>
+                </a>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
+                href="https://github.com/AtomVisualJS/MyCV"
                 target="_blank"
                 title="Voir mon Github"
               >
