@@ -23,11 +23,11 @@ class Terminal extends Component {
           </p>
           <br />
           <p className="line3">
-          {">"}&nbsp;&ldquo;Let's work together!&rdquo;&nbsp;
+          {">"}&nbsp;&ldquo;Habite à La Souque&rdquo;&nbsp;
             <span className="cursor3">_</span>
           </p>
           <p className="line4">
-            &nbsp;&nbsp;&ldquo;mmm&rdquo;&nbsp;
+            &nbsp;&nbsp;&ldquo;47330, Cahuzac, France&rdquo;&nbsp;
             <span className="cursor4">_</span>
           </p>
         </div>

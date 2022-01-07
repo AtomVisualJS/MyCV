@@ -1,18 +1,20 @@
-import Terminal from "components/Terminal/terminal";
+import CompetencesJS from "./Competences/CompetencesJS";
+import Terminal from "./Terminal/terminal";
 import React, { Component } from "react";
-import Moi from "../../assets/img/moi.png";
+import Moi from "./Competences/assetsJs/moi.png";
 import "./profile.css";
 
 class Profile extends Component {
   render() {
     return (
       <div>
-        <div id="profile">
+        <div id="profile"><CompetencesJS />
           <div id="login-button">
             <img src={Moi} alt=""></img>
           </div>
           <br></br>
           <Terminal />
+          <CompetencesJS />
         </div>
       </div>
     );

@@ -12,6 +12,7 @@ import {
   Container,
 } from "reactstrap";
 
+
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
@@ -52,6 +53,7 @@ function IndexNavbar() {
             target="_blank"
             title="Mathieu Vialatte"
           >
+  
             Mathieu Vialatte
           </NavbarBrand>
           <button

@@ -6,9 +6,11 @@ import Aos from "aos";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
-
+//import Maps from "components/Maps/Maps";
+import JS from "components/JS/JS";
 
 Aos.init();
+
 function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -22,6 +24,9 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <Profile />
+      <JS />
+      
+      
     </>
   );
 }
