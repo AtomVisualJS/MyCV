@@ -14,20 +14,21 @@ class Terminal extends Component {
         </div>
         <div className="fakeScreen">      
           <p className="line1">
-           {">"}&nbsp;&ldquo;Née le 11 mai 1999&rdquo;
+           {">"}&nbsp;&ldquo; 22 ans (11 mai 1999)&rdquo;
             <span className="cursor1">_</span>
           </p>
           <p className="line2">
-            &nbsp;&nbsp;&ldquo;à Villeneuve sur Lot&rdquo;,
+            &nbsp;&nbsp;&ldquo;Adresse : Castillonnes&rdquo;,
             <span className="cursor2">_</span>
           </p>
           <br />
           <p className="line3">
-          {">"}&nbsp;&ldquo;Habite à La Souque&rdquo;&nbsp;
+          {">"}&nbsp;&ldquo;Tel : 07-87-70-69-06&rdquo;&nbsp;
             <span className="cursor3">_</span>
           </p>
+          
           <p className="line4">
-            &nbsp;&nbsp;&ldquo;47330, Cahuzac, France&rdquo;&nbsp;
+            &nbsp;&nbsp;&ldquo;<a style={{textDecoration:"none", color:"white"}} href="/">atomvisualjs@gmail.com</a>&rdquo;&nbsp;
             <span className="cursor4">_</span>
           </p>
         </div>
