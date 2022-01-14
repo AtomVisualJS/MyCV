@@ -1,5 +1,5 @@
 import React from "react";
-import Aos from "aos";
+
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -8,8 +8,6 @@ import Profile from "components/Profile/profile";
 import Formation from "components/Formation/Formation";
 //import Formation from "components/Formation/Formation";
 ///import Maps from "components/Maps/Maps";
-
-Aos.init();
 
 function Index() {
   document.documentElement.classList.remove("nav-open");

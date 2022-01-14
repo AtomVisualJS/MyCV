@@ -1,0 +1,19 @@
+header { 
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;
+	padding-bottom: 66.66%;
+	background-size: cover;
+  font-family: 'Sucrose Bold Two';
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
