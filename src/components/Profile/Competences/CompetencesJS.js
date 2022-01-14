@@ -1,9 +1,11 @@
 
+
 /// Avatar 
 import Avatar from "@mui/material/Avatar";
 import Tooltip from '@mui/material/Tooltip';
-/// Images
 
+
+/// Images
 import ReactImg from "./assetsJs/react.png";
 import NodeImg from "./assetsJs/node.png";
 import MongoImg from "./assetsJs/mongo.png";
@@ -12,7 +14,6 @@ import NpmImg from "./assetsJs/npm.png";
 
 
 const CompetencesJS = () => {
-
   return (
     <div
       className="section  text-center"
@@ -23,7 +24,6 @@ const CompetencesJS = () => {
         className="container"
         style={{ display: "flex", justifyContent: "center" }}
       >
-       
         <div style={{ marginRight: "5%" }}>
         <Tooltip title="ReactJS">
           <Avatar src={ReactImg} sx={{ width: 56, height: 56 }} />
@@ -49,8 +49,6 @@ const CompetencesJS = () => {
           <Avatar src={NpmImg} sx={{ width: 56, height: 56 }} />
           </Tooltip>
         </div>
-
-       
       </div>
     </div>
   );

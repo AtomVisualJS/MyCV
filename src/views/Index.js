@@ -1,13 +1,13 @@
 import React from "react";
 import Aos from "aos";
-// reactstrap components
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
-//import Maps from "components/Maps/Maps";
-import JS from "components/JS/JS";
+import Formation from "components/Formation/Formation";
+//import Formation from "components/Formation/Formation";
+///import Maps from "components/Maps/Maps";
 
 Aos.init();
 
@@ -24,9 +24,7 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <Profile />
-      <JS />
-      
-      
+      <Formation />
     </>
   );
 }

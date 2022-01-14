@@ -6,7 +6,7 @@
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  height: 105vh;
+  height: 120vh;
 }
 
 img {
@@ -19,7 +19,7 @@ img {
 #login-button {
   cursor: pointer;
   position: relative;
-  top: 25px;
+  top: 5px;
   left: 0;
   right: 0;
   bottom: 0px;

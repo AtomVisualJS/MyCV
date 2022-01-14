@@ -8,14 +8,16 @@ class Profile extends Component {
   render() {
     return (
       <div>
-        <div id="profile"><CompetencesJS />
+        <div id="profile">
+          <CompetencesJS />
           <div id="login-button">
             <img src={Moi} alt=""></img>
           </div>
           <br></br>
           <Terminal />
           <CompetencesJS />
-        </div>
+         </div>
+       
       </div>
     );
   }
