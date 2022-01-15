@@ -1,4 +1,5 @@
 import HorizontalLabelPositionBelowStepper from "components/Formation/HorizontalLabelPositionBelowStepper";
+import Icons from "components/Icons/Icons";
 import React, { Component } from "react";
 
 class Bois extends Component {
@@ -32,6 +33,7 @@ class Bois extends Component {
               </div>
             </div>
           </div>
+          <Icons  />
         </div>
       </div>
     );

@@ -1,0 +1,37 @@
+#icons-body {
+  width: 100%;
+  
+}
+
+#apple,
+#twitter,
+#github,
+#facebook {
+  font-size: 5em;
+  color: #fff;
+  border-radius: 29px;
+ 
+  margin-left: 22%;
+  
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#twitter {
+  animation-delay: 0.3s;
+}
+#facebook {
+  animation-delay: 0.7s;
+}
+#github {
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
