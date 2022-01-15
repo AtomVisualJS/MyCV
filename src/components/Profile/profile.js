@@ -16,9 +16,8 @@ class Profile extends Component {
           <br></br>
           <Terminal />
           <CompetencesJS />
-          <CompetencesJS />
           <div style={{float:"right", backgroundImage:'url(https://static.vecteezy.com/ti/vecteur-libre/p1/1857360-metal-texture-fond-vectoriel.jpg)', borderRadius:'2px'}}>
-            <div style={{fontSize:'3em'}}>&nbsp;Formations&nbsp;</div>
+            <div style={{fontSize:'3em'}}>&nbsp;&nbsp;&nbsp;&nbsp;Formations&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
         </div>
       </div>

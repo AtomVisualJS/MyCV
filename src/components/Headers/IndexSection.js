@@ -2,25 +2,29 @@ import React from "react";
 import "./css/header.css";
 // reactstrap components
 import { Container } from "reactstrap";
+import { Avatar } from "@mui/material";
 
 // core components
 
-function IndexHeader() {
+function IndexSection() {
   return (
     <>
       <div
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/login-image.jpg").default + ")",
+            "url(" + require("assets/img/antoine-barres.jpg").default + ")",
         }}
       >
         <div className="filter" />
-        <div className="content-center">
+      <div >
           <Container>
-            <div className="wrapper">
-              <div className="typing-demo">Javascript,Python,Marketing&nbsp;</div>
-
+            <div>
+                <div className="row" >
+               <Avatar /><Avatar /></div> 
+               <h1>sqsqs</h1> 
+               <h1>sqsqs</h1> 
+               <h1>sqsqs</h1> 
               <div className="fog-low">
                 <img
                   alt="..."
@@ -48,4 +52,4 @@ function IndexHeader() {
   );
 }
 
-export default IndexHeader;
+export default IndexSection;
