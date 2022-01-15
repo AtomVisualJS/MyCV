@@ -1,0 +1,44 @@
+#middle {
+    background: url("https://padelmagazine.fr/wp-content/uploads/2021/10/new-york.jpeg")
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  #login-button {
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: rgba(3, 3, 3, 0.8);
+    overflow: hidden;
+  
+    box-shadow: 10px 10px 30px #000;
+  }
+
+  #middle-box{
+      background-color: white;
+      border-radius: 5px;
+      border: solid black 1px;
+      width: 75%;
+      margin-left: 12.5%;
+      margin-top: 5%;
+  }

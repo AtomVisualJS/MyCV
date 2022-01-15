@@ -2,13 +2,13 @@ import { Avatar } from "@mui/material";
 import React, { Component } from "react";
 import "./formation.scss";
 
-import Toulon from './assets/Toulon.png';
-  
 
+import Toulon from './assets/Toulon.png';
 import Avignon from "./assets/Avignon.png";
 import Bordeaux from "./assets/Bordeaux.jpg";
 import Bergerac from "./assets/Bergerac.jpg";
-import HorizontalLabelPositionBelowStepper from "./HorizontalLabelPositionBelowStepper";
+
+
 class Formation extends Component {
   render() {
     return (
@@ -18,7 +18,7 @@ class Formation extends Component {
         >
           <div className="album py-3">
             <div className="container">
-              <HorizontalLabelPositionBelowStepper />
+           
               <br />
               <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div className="col">

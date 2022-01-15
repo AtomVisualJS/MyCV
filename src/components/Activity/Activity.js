@@ -1,12 +1,14 @@
 
-import IndexSection from "components/Headers/IndexSection";
+
+
+import Middle from "components/Middle/Middle";
 import React, { Component } from "react";
 import './activity.css';
 class Activity extends Component {
   render() {
     return (
       <div>
-<IndexSection />
+        <Middle />
       </div>
     );
   }

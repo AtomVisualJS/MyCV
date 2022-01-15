@@ -2,7 +2,7 @@ import React from "react";
 import "./css/header.css";
 // reactstrap components
 import { Container } from "reactstrap";
-import { Avatar } from "@mui/material";
+
 
 // core components
 
@@ -20,11 +20,11 @@ function IndexSection() {
       <div >
           <Container>
             <div>
-                <div className="row" >
-               <Avatar /><Avatar /></div> 
-               <h1>sqsqs</h1> 
-               <h1>sqsqs</h1> 
-               <h1>sqsqs</h1> 
+                <div  >
+
+
+          
+               </div> 
               <div className="fog-low">
                 <img
                   alt="..."

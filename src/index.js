@@ -11,7 +11,9 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
-
+import Aos from "aos";
+import 'aos/dist/aos.css';
+Aos.init();
 // others
 
 ReactDOM.render(

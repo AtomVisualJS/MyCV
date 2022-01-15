@@ -6,7 +6,9 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
 import Formation from "components/Formation/Formation";
+import Bois from "components/Bois/Bois";
 import Activity from "components/Activity/Activity";
+//import Activity from "components/Activity/Activity";
 //import Formation from "components/Formation/Formation";
 ///import Maps from "components/Maps/Maps";
 
@@ -24,7 +26,9 @@ function Index() {
       <IndexHeader />
       <Profile />
       <Formation />
+      
       <Activity />
+<Bois />
     </>
   );
 }
