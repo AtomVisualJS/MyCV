@@ -1,8 +1,9 @@
 import HorizontalLabelPositionBelowStepper from "components/Formation/HorizontalLabelPositionBelowStepper";
-import Icons from "components/Icons/Icons";
+import Icons from "./Icons/Icons";
 import React, { Component } from "react";
+import Maps from "./Maps/Maps";
 
-class Bois extends Component {
+class Footer extends Component {
   render() {
     return (
       <div>
@@ -13,6 +14,7 @@ class Bois extends Component {
           }}
         >
           <br /> <br />
+          
           <HorizontalLabelPositionBelowStepper />
           <br />
           <div className="container">
@@ -34,10 +36,13 @@ class Bois extends Component {
             </div>
           </div>
           <Icons  />
+          <br />
+          <Maps />
+          <br /> 
         </div>
       </div>
     );
   }
 }
 
-export default Bois;
+export default Footer;

@@ -5,13 +5,13 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
 import Formation from "components/Formation/Formation";
-import Bois from "components/Bois/Bois";
-import Activity from "components/Activity/Activity";
+
+
+import Middle from "components/Middle/Middle";
+import Footer from "components/Footer/Footer";
 //import Contact from "components/Contact/Contact";
-//import Icons from "components/Icons/Icons";
-//import Activity from "components/Activity/Activity";
-//import Formation from "components/Formation/Formation";
-///import Maps from "components/Maps/Maps";
+
+
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -27,8 +27,9 @@ function Index() {
       <IndexHeader />
       <Profile />
       <Formation />
-      <Activity />
-      <Bois />
+      <Middle />
+      <Footer />
+    
     </>
   );
 }
