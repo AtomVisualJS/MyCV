@@ -1,31 +1,29 @@
 {
   "files": {
-    "main.css": "/MyCV/static/css/main.476cdc23.chunk.css",
-    "main.js": "/MyCV/static/js/main.69041eba.chunk.js",
-    "main.js.map": "/MyCV/static/js/main.69041eba.chunk.js.map",
+    "main.css": "/MyCV/static/css/main.608ce1bd.chunk.css",
+    "main.js": "/MyCV/static/js/main.4f401eca.chunk.js",
+    "main.js.map": "/MyCV/static/js/main.4f401eca.chunk.js.map",
     "runtime-main.js": "/MyCV/static/js/runtime-main.a8d0aa60.js",
     "runtime-main.js.map": "/MyCV/static/js/runtime-main.a8d0aa60.js.map",
     "static/css/2.10deb7b8.chunk.css": "/MyCV/static/css/2.10deb7b8.chunk.css",
-    "static/js/2.c0f0f419.chunk.js": "/MyCV/static/js/2.c0f0f419.chunk.js",
-    "static/js/2.c0f0f419.chunk.js.map": "/MyCV/static/js/2.c0f0f419.chunk.js.map",
+    "static/js/2.99478454.chunk.js": "/MyCV/static/js/2.99478454.chunk.js",
+    "static/js/2.99478454.chunk.js.map": "/MyCV/static/js/2.99478454.chunk.js.map",
     "index.html": "/MyCV/index.html",
     "static/css/2.10deb7b8.chunk.css.map": "/MyCV/static/css/2.10deb7b8.chunk.css.map",
-    "static/css/main.476cdc23.chunk.css.map": "/MyCV/static/css/main.476cdc23.chunk.css.map",
-    "static/js/2.c0f0f419.chunk.js.LICENSE.txt": "/MyCV/static/js/2.c0f0f419.chunk.js.LICENSE.txt",
-    "static/media/Avignon.3ea31aef.png": "/MyCV/static/media/Avignon.3ea31aef.png",
-    "static/media/Bordeaux.0cf8470c.jpg": "/MyCV/static/media/Bordeaux.0cf8470c.jpg",
+    "static/css/main.608ce1bd.chunk.css.map": "/MyCV/static/css/main.608ce1bd.chunk.css.map",
+    "static/js/2.99478454.chunk.js.LICENSE.txt": "/MyCV/static/js/2.99478454.chunk.js.LICENSE.txt",
     "static/media/clouds.png": "/MyCV/static/media/clouds.3c700c13.png",
     "static/media/fog-low.png": "/MyCV/static/media/fog-low.965eab52.png",
-    "static/media/js.778c135b.png": "/MyCV/static/media/js.778c135b.png",
     "static/media/login-image.jpg": "/MyCV/static/media/login-image.21e8ba3f.jpg",
     "static/media/moi.bece9ecd.png": "/MyCV/static/media/moi.bece9ecd.png",
-    "static/media/paper-kit.scss?v=1.3.0": "/MyCV/static/media/nucleo-icons.ec16bc4c.woff2"
+    "static/media/paper-kit.scss?v=1.3.0": "/MyCV/static/media/nucleo-icons.ec16bc4c.woff2",
+    "static/media/redux.79ddf7f8.png": "/MyCV/static/media/redux.79ddf7f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a8d0aa60.js",
     "static/css/2.10deb7b8.chunk.css",
-    "static/js/2.c0f0f419.chunk.js",
-    "static/css/main.476cdc23.chunk.css",
-    "static/js/main.69041eba.chunk.js"
+    "static/js/2.99478454.chunk.js",
+    "static/css/main.608ce1bd.chunk.css",
+    "static/js/main.4f401eca.chunk.js"
   ]
 }
