@@ -8,6 +8,8 @@ import ClickAwayListener from "@mui/material/ClickAwayListener";
 
 
 // Images
+import AcierImg from "./acier.jpg";
+
 import JsImg from "./assetsJs/js.png";
 import ReactImg from "./assetsJs/react.png";
 import ReduxImg from "./assetsJs/redux.jpg";
@@ -208,7 +210,7 @@ const Competencesdev = () => {
     <div>
       <main
         style={{
-          backgroundImage: `url(https://static.vecteezy.com/ti/vecteur-libre/p1/1857360-metal-texture-fond-vectoriel.jpg)`,
+          backgroundImage: `url(${AcierImg})`,
         }}
       >
          <div class="album py-5 ">
