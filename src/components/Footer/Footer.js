@@ -18,53 +18,45 @@ class Footer extends Component {
           <br />
           <div className="container">
             <div className="row" style={{}}>
-              <div className="c" style={{width:"45%", margin:"2.5%" }}>
-                <div className="card" >
+              <div className="c" style={{ width: "45%", margin: "2.5%" }}>
+                <div className="card">
                   <div className="card-header">Centre d'intérêt :</div>
                   <div className="card-body">
                     <div className="row">
                       <div className="col-md-4">
                         <div className="card-text">
-                      Communication <br />
-                      Marketing <br />
-                      Informatique <br />
-                      Data Science <br />
-                      Neurosciences <br />
-                      Astronomie <br />
-                      Ecologie <br />
-                      </div>
-                      
-                      
-                      
-                      
+                          Communication <br />
+                          Marketing <br />
+                          Informatique <br />
+                          Data Science <br />
+                          Neurosciences <br />
+                          🚀 Astronomie <br />
+                          Ecologie <br />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-               
-                
               </div>
-              <div className="c" style={{width:"45%", margin:"2.5%"}}>
-                <div className="card" >
+              <div className="c" style={{ width: "45%", margin: "2.5%" }}>
+                <div className="card">
                   <div className="card-header">Activités :</div>
                   <div className="card-body">
                     <div className="row">
                       <div className="col-md-4">
-                        <div className="card-text" >
-                        Motocross <br />
-                        Boxe <br />
-                        Lecture <br />
-                        Echecs <br />
-                        Documentaire <br />
-                        Musique <br />
-                        Programmation <br />
+                        <div className="card-text">
+                          Motocross <br />
+                          🥊 Boxe <br />
+                          Lecture <br />
+                          Echecs <br />
+                          Documentaire <br />
+                          Musique <br />
+                          🖥 Programmation <br />
                         </div>
-                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-               
-                
               </div>
             </div>
           </div>
