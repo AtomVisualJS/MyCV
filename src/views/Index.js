@@ -4,12 +4,11 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
-import Formation from "components/Formation/Formation";
-
-
-import Middle from "components/Middle/Middle";
+import Competencesdev from "components/Competencesdev/Competencesdev";
+import Parcours from "components/Parcours/Parcours";
 import Footer from "components/Footer/Footer";
-//import Contact from "components/Contact/Contact";
+
+
 
 
 
@@ -26,8 +25,8 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <Profile />
-      <Formation />
-      <Middle />
+      <Competencesdev />
+      <Parcours />
       <Footer />
     
     </>

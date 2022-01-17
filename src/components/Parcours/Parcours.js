@@ -1,77 +1,124 @@
 import React, { Component } from "react";
+import "./parcours.scss";
+
 
 class Parcours extends Component {
   render() {
     return (
       <div>
-        <div class="list-group">
-          <a
-            href="/"
-            class="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
-          >
-            <img
-              src="https://github.com/twbs.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              class="rounded-circle flex-shrink-0"
-            />
-            <div class="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 class="mb-0">List group item heading</h6>
-                <p class="mb-0 opacity-75">
-                  Some placeholder content in a paragraph.
-                </p>
+        <div id="middle">
+          <div className="Expbody">
+            <div className="row">
+              <div className="colA" data-aos="fade-right">
+                <br />
+                <h2>
+                  Mes <b>Formations</b>
+                </h2>
+                <div className="tabsA">
+                  <div className="tab">
+                    <input type="checkbox" id="chck1" />
+                    <label className="tab-label" htmlFor="chck1">
+                      2019-2020 : Licence 3, Information-Communication
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ipsum, reiciendis!
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck2" />
+                    <label className="tab-label" htmlFor="chck2">
+                      2020-2021 : Licence 2, Information-Communication
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      A, in!
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck3" />
+                    <label className="tab-label" htmlFor="chck3">
+                      2019-2020 : Licence 1, Information-Communication
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      A, in!
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck4" />
+                    <label className="tab-label" htmlFor="chck4">
+                      2017-2019 : Licence 1, Droit
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      A, in!
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck5" />
+                    <label className="tab-label" htmlFor="chck5">
+                      2017 : Bac Economique et Social
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      A, in!
+                    </div>
+                  </div>
+                </div>
               </div>
-              <small class="opacity-50 text-nowrap">now</small>
-            </div>
-          </a>
-          <a
-            href="/"
-            class="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
-          >
-            <img
-              src="https://github.com/twbs.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              class="rounded-circle flex-shrink-0"
-            />
-            <div class="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 class="mb-0">Another title here</h6>
-                <p class="mb-0 opacity-75">
-                  Some placeholder content in a paragraph that goes a little
-                  longer so it wraps to a new line.
-                </p>
+              <br />
+              <div className="colA" data-aos="fade-left">
+                <br />
+                <h2>
+                  Mes <b>Expériences</b>
+                </h2>
+                <div className="tabsA">
+                  <div className="tab">
+                    <input type="checkbox" id="rd1" name="rd" />
+                    <label className="tab-label" htmlFor="rd1">
+                      2021 : Préparateur de commandes chez la marque E.Leclerc
+                    </label>
+                    <div className="tab-content">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Eos, facilis.
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="rd2" name="rd" />
+                    <label className="tab-label" htmlFor="rd2">
+                      2020 : Vendeur polyvalent, chez la marque BUT
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nihil, aut.
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="rd3" name="rd" />
+                    <label className="tab-label" htmlFor="rd3">
+                      2019 : Préparateur de commandes chez la marque E.Leclerc
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nihil, aut.
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="rd4" name="rd" />
+                    <label className="tab-label" htmlFor="rd4">
+                      2015 - 2016 - 2017 - 2018 : Animateur en colonie de
+                      vacances
+                    </label>
+                    <div className="tab-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nihil, aut.
+                    </div>
+                  </div>
+                </div>
               </div>
-              <small class="opacity-50 text-nowrap">3d</small>
             </div>
-          </a>
-          <a
-            href="/"
-            class="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
-          >
-            <img
-              src="https://github.com/twbs.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              class="rounded-circle flex-shrink-0"
-            />
-            <div class="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 class="mb-0">Third heading</h6>
-                <p class="mb-0 opacity-75">
-                  Some placeholder content in a paragraph.
-                </p>
-              </div>
-              <small class="opacity-50 text-nowrap">1w</small>
-            </div>
-          </a>
+          </div>
         </div>
       </div>
     );

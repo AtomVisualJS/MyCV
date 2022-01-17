@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import "./terminal.css";
+import MathieuLogo from "./MathieuLogo.png";
 
 class Terminal extends Component {
   render() {
     return (
       <div>
       <br />
-      <div id="terminalbody" data-aos="fade-up-left">  
+      
+      <div id="terminalbody"> 
+      <div data-aos="fade-up" data-duration="5000" >
+      <img src={MathieuLogo} alt="" 
+       style={{
+        width: "200px"}}
+      /> </div>
         <div className="fakeMenu" style={{color:"black"}}>
           <div className="fakeButtons fakeClose"></div>
           <div className="fakeButtons fakeMinimize"></div>

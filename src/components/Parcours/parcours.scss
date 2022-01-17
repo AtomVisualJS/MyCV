@@ -1,14 +1,29 @@
 $midnight: #2c3e50;
 $clouds: #ecf0f1;
 // General
+
+#middle {
+  background: rgba(0, 0, 0, 0.692)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  
+ 
+  
+  
+}
+
 .Expbody {
   color: $midnight;
-  background: $clouds;
-  border: 1px solid $midnight;
+  
+  
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 15%;
-  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
   
   
@@ -21,6 +36,7 @@ h1 {
 h2 {
   margin: 0 0 .5em;
   font-weight: normal;
+  background-color: $clouds;
 }
 input {
   position: absolute;
@@ -30,24 +46,31 @@ input {
 // Layout
 .row {
   display:flex;
-  .col {
+  .colA {
     flex:1;
+    background-color: $clouds;
+    border: 2px solid $midnight;
+    border-radius: 5px;
+    padding: 10px;
+
+    margin: 10px;
     &:last-child {
       margin-left: 1em;
     }
   }
 }
 /* Accordion styles */
-.tabs {
+.tabsA {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 8px 4px -2px rgba(0,0,0,0.5);
+  background-color: $clouds;
   
 }
 .tab {
   width: 100%;
   color: white;
-  overflow: hidden;
+  overflow: hidden; 
   &-label {
     display: flex;
     justify-content: space-between;
@@ -71,7 +94,7 @@ input {
     max-height: 0;
     padding: 0 1em;
     color: $midnight;
-    background: white;
+   
     transition: all .35s;
   }
   &-close {

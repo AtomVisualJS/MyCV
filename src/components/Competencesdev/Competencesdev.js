@@ -4,23 +4,30 @@ import Tooltip from "@mui/material/Tooltip";
 import Button from "@mui/material/Button";
 import ClickAwayListener from "@mui/material/ClickAwayListener";
 
-// Css
-import "./formation.scss";
+
+
 
 // Images
 import JsImg from "./assetsJs/js.png";
 import ReactImg from "./assetsJs/react.png";
 import ReduxImg from "./assetsJs/redux.jpg";
+import CssImg from "./assetsJs/css.png";
+import SassImg from "./assetsJs/sass.png";
+import HtmlImg from "./assetsJs/html.png";
+import ReactNativeImg from "./assetsJs/react-nativ.png";
 
 import NodeImg from "./assetsJs/node.png";
 import ExpressImg from "./assetsJs/express.jpg";
 import MongoImg from "./assetsJs/mongo.png";
+import NpmImg from "./assetsJs/npm.png";
+import DockerImg from "./assetsJs/docker.png";
 
 import PythonImg from "./assetsJs/python.png";
 import JupyterImg from "./assetsJs/jupyter.png";
 import PandasImg from "./assetsJs/pandas.png";
+import MatplotlibImg from "./assetsJs/matplotlib.png";
 
-const Formation = () => {
+const Competencesdev = () => {
   // Javascript
   const [openJs, setOpenJs] = React.useState(false);
 
@@ -52,6 +59,50 @@ const Formation = () => {
 
   const handleTooltipOpenRedux = () => {
     setOpenRedux(true);
+  };
+
+  // Css
+  const [openCss, setOpenCss] = React.useState(false);
+
+  const handleTooltipCloseCss = () => {
+    setOpenCss(false);
+  };
+
+  const handleTooltipOpenCss = () => {
+    setOpenCss(true);
+  };
+
+  // Sass
+  const [openSass, setOpenSass] = React.useState(false);
+
+  const handleTooltipCloseSass = () => {
+    setOpenSass(false);
+  };
+
+  const handleTooltipOpenSass = () => {
+    setOpenSass(true);
+  };
+
+  // Html
+  const [openHtml, setOpenHtml] = React.useState(false);
+
+  const handleTooltipCloseHtml = () => {
+    setOpenHtml(false);
+  };
+
+  const handleTooltipOpenHtml = () => {
+    setOpenHtml(true);
+  };
+
+  // React Native
+  const [openReactNative, setOpenReactNative] = React.useState(false);
+
+  const handleTooltipCloseReactNative = () => {
+    setOpenReactNative(false);
+  };
+
+  const handleTooltipOpenReactNative = () => {
+    setOpenReactNative(true);
   };
 
   /// Node
@@ -87,6 +138,28 @@ const Formation = () => {
     setOpenMongo(true);
   };
 
+  /// Npm
+  const [openNpm, setOpenNpm] = React.useState(false);
+
+  const handleTooltipCloseNpm = () => {
+    setOpenNpm(false);
+  };
+
+  const handleTooltipOpenNpm = () => {
+    setOpenNpm(true);
+  };
+
+  /// Docker
+  const [openDocker, setOpenDocker] = React.useState(false);
+
+  const handleTooltipCloseDocker = () => {
+    setOpenDocker(false);
+  };
+
+  const handleTooltipOpenDocker = () => {
+    setOpenDocker(true);
+  };
+
   /// Python
   const [openPython, setOpenPython] = React.useState(false);
 
@@ -120,6 +193,17 @@ const Formation = () => {
     setOpenPandas(true);
   };
 
+  /// Matplotlib
+  const [openMatplotlib, setOpenMatplotlib] = React.useState(false);
+
+  const handleTooltipCloseMatplotlib = () => {
+    setOpenMatplotlib(false);
+  };
+
+  const handleTooltipOpenMatplotlib = () => {
+    setOpenMatplotlib(true);
+  };
+
   return (
     <div>
       <main
@@ -127,22 +211,29 @@ const Formation = () => {
           backgroundImage: `url(https://static.vecteezy.com/ti/vecteur-libre/p1/1857360-metal-texture-fond-vectoriel.jpg)`,
         }}
       >
-        <div className="album py-3">
-          <div className="container">
-            <br />
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+         <div class="album py-5 ">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+       
+            
+            
+
+                  
+                
+              
               <div className="col">
                 <div className="card shadow-sm">
-                  <div className="card-body">
-                    <br />
+                  <div className="card-body" >
+                   
 
                     <h5 className="card-text">
-                      <strong>Développeur Front-end</strong>
+                      <strong>Développeur Back-end</strong>
                       <br />
                       <small>Université d'Avignon</small>
                     </h5>
                     <div className="row">
-                      <ClickAwayListener onClickAway={handleTooltipCloseJs}>
+                    <ClickAwayListener onClickAway={handleTooltipCloseJs}>
                         <Tooltip
                           PopperProps={{
                             disablePortal: true,
@@ -198,15 +289,95 @@ const Formation = () => {
                           </Button>
                         </Tooltip>
                       </ClickAwayListener>
-                    </div>
-                    <div className="d-flex justify-content-between align-items-center"></div>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseCss}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseCss}
+                          open={openCss}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="Css"
+                        >
+                          <Button onClick={handleTooltipOpenCss}>
+                            {" "}
+                      <Avatar src={CssImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseSass}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseSass}
+                          open={openSass}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="Sass"
+                        >
+                          <Button onClick={handleTooltipOpenSass}>
+                            {" "}
+                            <Avatar src={SassImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseHtml}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseHtml}
+                          open={openHtml}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="Html"
+                        >
+                          <Button onClick={handleTooltipOpenHtml}>
+                            {" "}
+
+
+                      <Avatar src={HtmlImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseReactNative}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseReactNative}
+                          open={openReactNative}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="React Native"
+                        >
+                          <Button onClick={handleTooltipOpenReactNative}>
+                            {" "}
+                      <Avatar src={ReactNativeImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
+                      </div>
+                    
                   </div>
                 </div>
               </div>
+           
+              
               <div className="col">
                 <div className="card shadow-sm">
                   <div className="card-body">
-                    <br />
+                    
 
                     <h5 className="card-text">
                       <strong>Développeur Back-end</strong>
@@ -273,11 +444,51 @@ const Formation = () => {
                           </Button>
                         </Tooltip>
                       </ClickAwayListener>
-                    </div>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseNpm}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseNpm}
+                          open={openNpm}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="Npm"
+                        >
+                          <Button onClick={handleTooltipOpenNpm}>
+                            {" "}
+                            <Avatar src={NpmImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseDocker}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseDocker}
+                          open={openDocker}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="Docker"
+                        >
+                          <Button onClick={handleTooltipOpenDocker}>
+                            {" "}
+
+                      <Avatar src={DockerImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
+                      </div>
                     <div className="d-flex justify-content-between align-items-center"></div>
                   </div>
                 </div>
               </div>
+
               <div className="col" data-aos="zoom-in"
               
               >
@@ -349,6 +560,26 @@ const Formation = () => {
                           </Button>
                         </Tooltip>
                       </ClickAwayListener>
+
+                      <ClickAwayListener onClickAway={handleTooltipCloseMatplotlib}>
+                        <Tooltip
+                          PopperProps={{
+                            disablePortal: true,
+                          }}
+                          onClose={handleTooltipCloseMatplotlib}
+                          open={openMatplotlib}
+                          disableFocusListener
+                          disableHoverListener
+                          disableTouchListener
+                          title="Matplotlib"
+                        >
+                          <Button onClick={handleTooltipOpenMatplotlib}>
+                            {" "}
+
+                      <Avatar src={MatplotlibImg} />
+                          </Button>
+                        </Tooltip>
+                      </ClickAwayListener>
                     </div>
                     <div className="d-flex justify-content-between align-items-center"></div>
                   </div>
@@ -368,12 +599,13 @@ const Formation = () => {
                   </div>
                 </div>
               </div>
+          
             </div>
           </div>
-        </div>
+         </div>
       </main>
     </div>
   );
 };
 
-export default Formation;
+export default Competencesdev;

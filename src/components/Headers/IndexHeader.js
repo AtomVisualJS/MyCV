@@ -19,7 +19,7 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="wrapper">
-              <h3 style={{color:"white", fontWeight:"bold"}}>Javascript,Python,Marketing&nbsp;</h3>
+              <h3 className="typing-demo" style={{color:"white", fontWeight:"bold"}}>Javascript,Python,Marketing&nbsp;</h3>
 
               <div className="fog-low">
                 <img

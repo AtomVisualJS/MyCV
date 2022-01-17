@@ -37,7 +37,7 @@ h1 {
   position: absolute;
   top: 0;
   animation: slide 5s infinite;
-  color: midnightblue;
+  color: rgb(15, 15, 71);
 }
 
 @keyframes slide {
