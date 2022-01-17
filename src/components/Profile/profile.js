@@ -9,14 +9,15 @@ class Profile extends Component {
     return (
       <div>
         <div id="profile">
-          
-          <div id="login-button">
-            <img src={Moi} alt=""></img>
+          <br /> <br />
+          <div id="login-button" data-aos="flip-down">
+            <div  data-aos-duration="2500">
+              <img src={Moi} alt="" />
+            </div>
           </div>
           <br></br>
           <Terminal />
-          
-        
+          <br /> <br />
         </div>
       </div>
     );

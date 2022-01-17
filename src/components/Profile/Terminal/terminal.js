@@ -6,14 +6,14 @@ class Terminal extends Component {
     return (
       <div>
       <br />
-      <div id="terminalbody">  
+      <div id="terminalbody" data-aos="fade-up-left">  
         <div className="fakeMenu" style={{color:"black"}}>
           <div className="fakeButtons fakeClose"></div>
           <div className="fakeButtons fakeMinimize"></div>
           <div className="fakeButtons fakeZoom"></div>          
         </div>
         <div className="fakeScreen">      
-          <p className="line1">
+          <p className="line1" style={{fontWeight:"bold"}}>
            {">"}&nbsp;&ldquo; Mathieu Vialatte&rdquo;
             <span className="cursor1">_</span>
           </p>

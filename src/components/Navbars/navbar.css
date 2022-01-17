@@ -1,8 +1,6 @@
 .wrapper {
-    height: 100vh;
-    /*This part is important for centering*/
+    height: 100vh;   
     display: flex;
-   
     background-color: transparent;
   }
   
@@ -16,6 +14,10 @@
     font-family: monospace;
     font-size: 1.2em;
   }
+
+ 
+
+ 
   
   @keyframes typing {
     from {

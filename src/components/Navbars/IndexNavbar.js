@@ -78,23 +78,35 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="mailto: atomvisualjs@gmail.com"
                 target="_blank"
-                title="Like us on Facebook"
+                title="Envoyer E-mail"
+                
               >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
+                <i className="fa fa-envelope"/>
+                <p className="d-lg-none">E-MAIL</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.linkedin.com/in/mathieu-vialatte-529465229/"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Voir mon profil Linkedin"
               >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
+                <i className="fa fa-linkedin-square" />
+                <p className="d-lg-none">LINKEDIN</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="https://github.com/AtomVisualJS"
+                target="_blank"
+                title="Voir mon Github"
+              >
+                <i className="fa fa-github-square github" />
+                <p className="d-lg-none">GITHUB</p>
               </NavLink>
             </NavItem>
           </Nav>
