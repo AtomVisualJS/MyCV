@@ -8,12 +8,13 @@ class Qualités extends Component {
       <div>
         <div className="main">
           <h1>
-         <b style={{color:"black"}}>Qualités :</b> 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div className="roller">
               <span id="rolltext">
                 Curieux
                 <br />
-                Stratége
+                Stratège
                 <br />
                 Créatif
                 <br />

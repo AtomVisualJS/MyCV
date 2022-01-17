@@ -13,7 +13,7 @@ class Footer extends Component {
               "url(https://static.vecteezy.com/ti/photos-gratuite/p1/1259659-surface-beton-gris-clair-gratuit-photo.jpg)",
           }}
         >
-          <br /> <br />
+         
           <Qualités />
           <br />
           <div className="container">
