@@ -1,29 +1,30 @@
+/*!
+
+=========================================================
+* Paper Kit React - v1.3.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/paper-kit-react
+
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+/*eslint-disable*/
 import React from "react";
-import "./css/header.css";
+
 // reactstrap components
 import { Container } from "reactstrap";
-import { Avatar } from "@mui/material";
-import Tooltip from "@mui/material/Tooltip";
-import Button from "@mui/material/Button";
-import ClickAwayListener from "@mui/material/ClickAwayListener";
 
-// Images
-import JsImage from "../Competencesdev/assetsJs/js.png";
-import NodeImage from "../Competencesdev/assetsJs/node.png";
-import PyhtonImage from "../Competencesdev/assetsJs/python.png";
 // core components
 
 function IndexHeader() {
-  const [openHeadJs, setOpenHeadJs] = React.useState(false);
-
-  const handleTooltipCloseHeadJs = () => {
-    setOpenHeadJs(false);
-  };
-
-  const handleTooltipOpenHeadJs = () => {
-    setOpenHeadJs(true);
-  };
-
   return (
     <>
       <div
@@ -36,90 +37,8 @@ function IndexHeader() {
         <div className="filter" />
         <div className="content-center">
           <Container>
-            <div className="wrapper">
-              <div className="title">
-                <br /> <br />
-                <div
-                  className="row"
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                  }}
-                >
-                  <div
-                    className="Header_Avatar"
-                    
-                  >
-                    <ClickAwayListener onClickAway={handleTooltipCloseHeadJs}>
-                      <Tooltip
-                        PopperProps={{
-                          disablePortal: true,
-                        }}
-                        onClose={handleTooltipCloseHeadJs}
-                        open={openHeadJs}
-                        disableFocusListener
-                        disableHoverListener
-                        disableTouchListener
-                        title="Javascript"
-                      >
-                        <Button onClick={handleTooltipOpenHeadJs}>
-                          <Avatar
-                            src={JsImage}
-                            sx={{ width: 56, height: 56 }}
-                          />
-                        </Button>
-                      </Tooltip>
-                    </ClickAwayListener>
-                  </div>
-                  <div className="Header_Avatar">
-                    <Avatar
-                      data-aos="zoom-in"
-                      data-aos-duration="3000"
-                      src={NodeImage}
-                      sx={{ width: 56, height: 56 }}
-                    />
-                  </div>
-                  <div
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                    className="Header_Avatar"
-                  >
-                    <Avatar src={PyhtonImage} sx={{ width: 56, height: 56 }} />
-                  </div>
-                </div>
-                <br /> <br />
-                <h3
-                  className="typing-demo"
-                  style={{
-                    color: "white",
-                    fontWeight: "bold",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  Développeur <b style={{ color: "yellow" }}> Javascript </b>
-                </h3>
-                <h3
-                  className="typing-demo"
-                  style={{
-                    color: "white",
-                    fontWeight: "bold",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  Développeur <b style={{ color: "lightblue" }}> Python</b>
-                </h3>
-                <h3
-                  className="typing-demo"
-                  style={{
-                    color: "white",
-                    fontWeight: "bold",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  Consultant <b style={{ color: "lightgreen" }}> Marketing</b>
-                </h3>
-              </div>
-
+            <div className="title-brand">
+              <h1 className="presentation-title">Paper Kit React</h1>
               <div className="fog-low">
                 <img
                   alt="..."
@@ -133,6 +52,9 @@ function IndexHeader() {
                 />
               </div>
             </div>
+            <h2 className="presentation-subtitle text-center">
+              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
+            </h2>
           </Container>
         </div>
         <div
@@ -142,6 +64,19 @@ function IndexHeader() {
               "url(" + require("assets/img/clouds.png").default + ")",
           }}
         />
+        <h6 className="category category-absolute">
+          Designed and coded by{" "}
+          <a
+            href="https://www.creative-tim.com?ref=pkr-index-page"
+            target="_blank"
+          >
+            <img
+              alt="..."
+              className="creative-tim-logo"
+              src={require("assets/img/creative-tim-white-slim2.png").default}
+            />
+          </a>
+        </h6>
       </div>
     </>
   );

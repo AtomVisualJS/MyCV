@@ -5,33 +5,62 @@ class Qualités extends Component {
   render() {
     return (
       <div>
-        <div className="contain">
+        <div
+          className="contain"
+          style={{
+            backgroundImage: "url(" + require("./black.png").default + ")",
+          }}
+        >
           <div className="main">
-            <h1>
-              <b
-                style={{
-                  color: "black",
-                  fontFamily: "Roboto",
-                }}
-              >
-                {" "}
-                Qualités :
-              </b>
-              <div className="roller">
+            <h1
+              style={{
+                marginTop: "3%",
+                marginBottom: "2%",
+                width: "350px",
+                fontFamily: "Roboto",
+                fontSize: "2rem",
+                height: "auto",
+              }}
+            >
+              <div className="roller" style={{}}>
                 <span id="rolltext">
-                  <b style={{ color: "blue" }}>Curieux</b>
-                  <br />
-                  <b style={{ color: "green" }}>Stratège</b>
-                  <br />
-                  <b style={{ color: "orange" }}> Créatif</b>
-                  <br />
+                  <div
+                    style={{
+                      color: "lightgreen",
+                      
+                      paddingTop: "5px",
+                    }}
+                  >
+                    Stratège
+                  </div>
+
+                  <div
+                    style={{
+                      color: "lightblue",
+                      
+                      paddingTop: "5px",
+                      marginBottom: "5px",
+                    }}
+                  >
+                    Curieux
+                  </div>
+
+                  <div
+                    style={{
+                      color: "red",
+                      marginTop: "5px",
+                     marginBottom: "5px",
+                    }}
+                  >
+                    {" "}
+                    Créatif
+                  </div>
+                 
                 </span>
-                <span id="spare-time"></span>
-                <br />
               </div>
             </h1>
           </div>
-          <br />
+          
         </div>
       </div>
     );

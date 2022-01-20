@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .roller {
@@ -36,7 +36,7 @@ h1 {
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 5s infinite;
+  animation: slide 7s infinite;
   color: rgb(15, 15, 71);
 }
 
@@ -74,7 +74,7 @@ h1 {
   }
 
   .roller #rolltext {
-    animation: slide-mob 5s infinite;
+    animation: slide-mob 7s infinite;
   }
 
   @keyframes slide-mob {
