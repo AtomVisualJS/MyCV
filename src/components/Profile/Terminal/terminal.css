@@ -29,7 +29,7 @@
   }
   
   .fakeMenu {
-    width: 350px;
+    width: 400px;
     box-sizing: border-box;
     height: 25px;
     background-color: #bbb;
@@ -42,7 +42,7 @@
   .fakeScreen {
     background-color: #151515;
     box-sizing: border-box;
-    width: 350px;
+    width: 400px;
     margin: 0 auto;
     padding: 20px;
     border-bottom-left-radius: 5px;
@@ -51,8 +51,8 @@
   
   p {
     position: relative;
-    left: 50%;
-    margin-left: -8.5em;
+    left: 25%;
+    margin-left: -5em;
     text-align: left;
     font-size: 1.25em;
     font-family: monospace;
@@ -97,7 +97,7 @@
   }
   
   .line3 {
-    color: #E09690;
+    color: #c1d7db;
     -webkit-animation: type .5s 7.5s steps(20, end) forwards;
     -moz-animation: type .5s 7.5s steps(20, end) forwards;
     -o-animation: type .5s 7.5s steps(20, end) forwards;

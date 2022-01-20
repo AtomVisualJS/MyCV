@@ -1,10 +1,8 @@
-
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
 import {
-  
   Collapse,
   NavbarBrand,
   Navbar,
@@ -48,12 +46,7 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            href="/"
-            target="_blank"
-            
-          >
+          <NavbarBrand data-placement="bottom" href="/" target="_blank">
             Mathieu Vialatte
           </NavbarBrand>
           <button
@@ -74,16 +67,26 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-           
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="/"
+                target="_blank"
+                title="Envoyer E-mail"
+              >
+                <i className="fa fa-home" />
+                <p className="d-lg-none">Accueil</p>
+              </NavLink>
+            </NavItem>
+
             <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="mailto: atomvisualjs@gmail.com"
                 target="_blank"
                 title="Envoyer E-mail"
-                
               >
-                <i className="fa fa-envelope"/>
+                <i className="fa fa-envelope" />
                 <p className="d-lg-none">E-MAIL</p>
               </NavLink>
             </NavItem>

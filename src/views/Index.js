@@ -5,8 +5,10 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
 import Competencesdev from "components/Competencesdev/Competencesdev";
-import Parcours from "components/Parcours/Parcours";
-import Footer from "components/Footer/Footer";
+//import Parcours from "components/Parcours/Parcours";
+//import Footer from "components/Footer/Footer";
+import School from "components/School/School";
+import Qualités from "components/Footer/Qualités/Qualités";
 
 
 
@@ -26,8 +28,8 @@ function Index() {
       <IndexHeader />
       <Profile />
       <Competencesdev />
-      <Parcours />
-      <Footer />
+      <School />
+      <Qualités />
     
     </>
   );

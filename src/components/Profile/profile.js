@@ -1,26 +1,31 @@
-//import CompetencesJS from "./Competences/CompetencesJS";
 import Terminal from "./Terminal/terminal";
 import React, { Component } from "react";
 import Moi from "./moi.png";
-
+import "../Headers/css/header.css";
 import "./profile.css";
 
 class Profile extends Component {
   render() {
     return (
       <div>
-        <div id="profile">
-          <br /> <br />
-          <div id="login-button" data-aos="flip-down">
-            <div>
-              <img src={Moi} alt="" />
+        <div
+          id="profile">
+            <div
+          style={{
+            backgroundImage: "url(" + require("./space.jpg").default + ")",
+            paddingTop: "50px",
+          }}
+        >
+          <div>
+            <div id="login-button" data-aos="zoom-in">
+              <div>
+                <img src={Moi} alt="" />
+              </div>
             </div>
-           
-            
-          </div> 
-          <br></br>
-          <Terminal />
-          <br /> <br />
+            <Terminal />
+            <br /> <br />
+          </div>
+        </div>
         </div>
       </div>
     );

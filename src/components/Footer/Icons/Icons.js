@@ -4,7 +4,8 @@ import "./Icons.css";
 class Icons extends Component {
   render() {
     return (
-      <div>`<br />
+      <div>
+        <br />
         <div id="icons-body">
           <div className="icons-container">
             <a href="mailto: atomvisualjs@gmail.com">
@@ -14,7 +15,7 @@ class Icons extends Component {
               <i className="fa fa-linkedin-square" id="twitter"></i>
             </a>
             <a href="https://github.com/AtomVisualJS">
-            <i className="fa fa-github-square github" id="github"></i>
+              <i className="fa fa-github-square github" id="github"></i>
             </a>
           </div>
         </div>

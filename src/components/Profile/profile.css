@@ -1,6 +1,6 @@
 #profile {
-  background: url("https://quentindouchetphoto.files.wordpress.com/2018/10/dsc09066-alpes-montagne-9.jpg")
-    no-repeat center center fixed;
+  
+    
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,8 +24,8 @@ img {
   right: 0;
   bottom: 0px;
   margin: auto;
-  width: 175px;
-  height: 175px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background: rgba(3, 3, 3, 0.8);
   overflow: hidden;
