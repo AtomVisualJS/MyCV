@@ -13,7 +13,6 @@ class School extends Component {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
-
             width: "100%",
             position: "relative",
             overflow: "hidden",
@@ -39,10 +38,7 @@ class School extends Component {
                 padding: "5%",
               }}
             >
-              <div className="colA" 
-              data-aos="fade-right"
-              data-aos-duration="3000"
-              >
+              <div className="colA">
                 <br />
                 <h2
                   style={{
@@ -62,14 +58,19 @@ class School extends Component {
                     </label>
                     <div className="tab-content">
                       <div className="row">
-                      <Avatar 
-                        sx={{
-                          width: "30px",
-                          height: "30px",
-                          marginLeft: "10px",
-                        }}
-                      />
-                      Université de Toulon
+                        <Avatar
+                          sx={{
+                            width: "30px",
+                            height: "30px",
+                            marginLeft: "10px",
+                          }}
+                        />
+                        &nbsp;&nbsp;
+                        <div style={{ fontSize: "1em" }}>
+                          Université de Toulon <br />
+                          ..... 830dksndksnd
+                        </div>
+                      
                       </div>
                     </div>
                   </div>
