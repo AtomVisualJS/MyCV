@@ -2,7 +2,7 @@
 import Icons from "./Icons/Icons";
 import React, { Component } from "react";
 import Maps from "./Maps/Maps";
-import Qualités from "./Qualités/Qualités";
+import Qualités from "../Mur/Mur";
 class Footer extends Component {
   render() {
     return (

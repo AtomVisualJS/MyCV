@@ -54,7 +54,7 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck1" />
                     <label className="tab-label" htmlFor="chck1">
-                      2019-2020 <b>Licence 3 </b> Information-Communication
+                      2019-2020&nbsp; <b>Licence 3 </b> Information-Communication
                     </label>
                     <div className="tab-content">
                       <div className="row">
@@ -77,7 +77,7 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck2" />
                     <label className="tab-label" htmlFor="chck2">
-                      2020-2021 <b>Licence 2 </b> Information-Communication
+                      2020-2021&nbsp; <b>Licence 2 </b> Information-Communication
                     </label>
                     <div className="tab-content">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -87,7 +87,7 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck3" />
                     <label className="tab-label" htmlFor="chck3">
-                      2019-2020 <b>Licence 1 </b> Information-Communication
+                      2019-2020&nbsp; <b>Licence 1 </b> Information-Communication
                     </label>
                     <div className="tab-content">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -97,7 +97,7 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck4" />
                     <label className="tab-label" htmlFor="chck4">
-                      2017-2019 <b>Licence 1 </b> &nbsp; Droit Public, Privé et
+                      2017-2019 &nbsp;<b>Licence 1 </b> &nbsp; Droit Public, Privé et
                       Pénal
                     </label>
                     <div className="tab-content">
@@ -108,8 +108,7 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck5" />
                     <label className="tab-label" htmlFor="chck5">
-                      <div>2017</div>
-                      <b style={{ marginLeft: "15px" }}>Baccalauréat</b>
+                      2016-2017<b>Baccalauréat</b>
                       Économique et Social
                     </label>
                     <div className="tab-content">
@@ -121,7 +120,8 @@ class School extends Component {
               </div>
             </div>
           </div>
-        </div>
+        <br /> </div>
+       
       </div>
     );
   }

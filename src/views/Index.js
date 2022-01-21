@@ -8,11 +8,8 @@ import Competencesdev from "components/Competencesdev/Competencesdev";
 //import Parcours from "components/Parcours/Parcours";
 //import Footer from "components/Footer/Footer";
 import School from "components/School/School";
-import Qualités from "components/Footer/Qualités/Qualités";
-
-
-
-
+import Mur from "components/Mur/Mur";
+import Plancher from "components/Plancher/Plancher";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -29,8 +26,8 @@ function Index() {
       <Profile />
       <Competencesdev />
       <School />
-      <Qualités />
-    
+      <Mur />
+      <Plancher />
     </>
   );
 }
