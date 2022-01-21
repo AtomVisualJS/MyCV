@@ -1,22 +1,4 @@
-/*!
 
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-/*eslint-disable*/
 import React from "react";
 
 // reactstrap components
@@ -31,14 +13,49 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg").default + ")",
+            "url(" + require("assets/img/login-image.jpg").default + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Paper Kit React</h1>
+              <div className="typing-demo">
+                Développeur<b
+                  style={{
+                    fontSize: "1.2em",
+                    color: "yellow",
+                    fontWeight: "bold",
+
+                  }}
+                > Javascript</b>
+                </div>
+              <br />
+              <div className="typing-demo">
+                Développeur<b
+                  style={{
+                    fontSize: "1.2em",
+                    color: "lightblue",
+                    fontWeight: "bold",
+                  }}
+                > Python</b>
+                
+                </div>
+              <br />
+              <div className="typing-demo">
+               Consultant  
+                <b
+                  style={{
+                    fontSize: "1.2em",
+                    color: "orange",
+                    fontWeight: "bold",
+                  }}
+                > Marketing </b>
+               
+                
+                
+                </div>
+              <br /> <br />
               <div className="fog-low">
                 <img
                   alt="..."
@@ -52,9 +69,6 @@ function IndexHeader() {
                 />
               </div>
             </div>
-            <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
-            </h2>
           </Container>
         </div>
         <div
@@ -64,19 +78,6 @@ function IndexHeader() {
               "url(" + require("assets/img/clouds.png").default + ")",
           }}
         />
-        <h6 className="category category-absolute">
-          Designed and coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=pkr-index-page"
-            target="_blank"
-          >
-            <img
-              alt="..."
-              className="creative-tim-logo"
-              src={require("assets/img/creative-tim-white-slim2.png").default}
-            />
-          </a>
-        </h6>
       </div>
     </>
   );

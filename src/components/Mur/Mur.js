@@ -9,21 +9,18 @@ class Qualites extends Component {
         <div
           style={{
             backgroundImage: `url(${Brique})`,
-
-            
+            backgroundSize: "cover",
           }}
         >
           <div className="container">
-            <div class="mainQualites">
-              <h1
-              style={{width: "100%"}} 
-              >
-                
-                <div class="roller"
-                style={{
-                  marginTop: "5vh",
-                  height:"30vh",
-                }}
+            <div className="mainQualites">
+              <h1 style={{ width: "100%" }}>
+                <div
+                  className="roller"
+                  style={{
+                    marginTop: "5vh",
+                    height: "30vh",
+                  }}
                 >
                   <span
                     id="rolltext"

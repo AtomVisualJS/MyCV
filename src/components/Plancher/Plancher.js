@@ -10,6 +10,7 @@ class Plancher extends Component {
                     style={{
                         backgroundImage: `url(${PlancherImage})`,
                         height:"30vh",
+                        backgroundSize:"cover",
                         
                         
                     }}

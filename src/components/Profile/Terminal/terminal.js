@@ -138,18 +138,13 @@ const Terminal = () => {
           <br />
           <p className="line3">
             {">"}
-            <a href="mailto: atomvisualjs@gmail.com">
-              <b
-                className="line3"
-                style={{
-                  fontWeight: "bold",
 
-                  fontSize: "1rem",
-                }}
-              >
-                &nbsp; <i className="fa fa-envelope" /> atomvisualjs@gmail.com{" "}
-              </b>
-            </a>
+           
+              
+         
+              atomvisualjs@gmail.com{" "}
+         
+
             <span className="cursor3">_</span>
           </p>
         </div>
