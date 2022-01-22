@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Carte extends Component {
+class ExpTitle extends Component {
     render() {
         return (
             <div>
-                
+                sffdsfsdfs
             </div>
         );
     }
 }
 
-export default Carte;
+export default ExpTitle;

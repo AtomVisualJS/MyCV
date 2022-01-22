@@ -5,6 +5,10 @@ import "./parcours.scss";
 /// Images
 
 import UnivTln from "./ImgSchool/tln.png";
+import UnivAvi from "./ImgSchool/avi.jpg";
+import UnivBdx from "./ImgSchool/bdx.png";
+
+
 
 class School extends Component {
   render() {
@@ -13,7 +17,7 @@ class School extends Component {
         <div
           className="mainSchool"
           style={{
-            backgroundImage: "url(" + require("./city.jpg").default + ")",
+            backgroundImage: "url(" + require("./header.jpg").default + ")",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -40,6 +44,7 @@ class School extends Component {
                 alignItems: "center",
                 margin: "auto",
                 padding: "5%",
+                
               }}
             >
               <div className="colA">
@@ -48,18 +53,19 @@ class School extends Component {
                   style={{
                     color: "white",
                     fontFamily: "Roboto",
-                    fontSize: "2.5rem",
+                    fontSize: "3rem",
                     textAlign: "center",
+                    fontWeight: "bold",
                   }}
                 >
-                  <b> Mes Formations</b>
+                  Mes Formations
                 </h2>
                 <div className="tabsA">
                   <div className="tab">
                     <input type="checkbox" id="chck1" />
                     <label className="tab-label" htmlFor="chck1">
                       2019-2020&nbsp;&nbsp; <b>Licence 3 </b>{" "}
-                      &nbsp;&nbsp; Information-Communication
+                      &nbsp;&nbsp; Information-Communication &nbsp;
                     </label>
                     <div className="tab-content">
                       <div className="row">
@@ -84,11 +90,11 @@ class School extends Component {
                     <label className="tab-label" htmlFor="chck2">
                       2020-2021&nbsp;&nbsp; <b>Licence 2 </b>{" "}
                       &nbsp;&nbsp; Information-Communication
-                    </label>
+                      &nbsp;</label>
                     <div className="tab-content">
                     <div className="row">
                         <Avatar
-                          src={UnivTln}
+                          src={UnivAvi}
                           sx={{
                             width: "30px",
                             height: "30px",
@@ -97,7 +103,7 @@ class School extends Component {
                         />
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
-                          Université de Toulon
+                          Université d'Avignon
                           <i className="fa fa-globe" aria-hidden="true"></i> <br />
                         </div>
                       </div>
@@ -108,11 +114,11 @@ class School extends Component {
                     <label className="tab-label" htmlFor="chck3">
                       2019-2020&nbsp;&nbsp;&nbsp; <b>Licence 1 </b>{" "}
                       &nbsp;&nbsp; Information-Communication
-                    </label>
+                      &nbsp;</label>
                     <div className="tab-content">
                     <div className="row">
                         <Avatar
-                          src={UnivTln}
+                          src={UnivAvi}
                           sx={{
                             width: "30px",
                             height: "30px",
@@ -121,7 +127,7 @@ class School extends Component {
                         />
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
-                          Université de Toulon
+                          Université d'Avignon
                           <i className="fa fa-globe" aria-hidden="true"></i> <br />
                         </div>
                       </div>
@@ -132,11 +138,11 @@ class School extends Component {
                     <label className="tab-label" htmlFor="chck4">
                       2017-2019 &nbsp;<b>Licence 1 </b> &nbsp; Droit Public,
                       Privé et Pénal
-                    </label>
+                      &nbsp;</label>
                     <div className="tab-content">
                     <div className="row">
                         <Avatar
-                          src={UnivTln}
+                          src={UnivBdx}
                           sx={{
                             width: "30px",
                             height: "30px",
@@ -145,7 +151,7 @@ class School extends Component {
                         />
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
-                          Université de Toulon
+                          Université de Bordeaux
                           <i className="fa fa-globe" aria-hidden="true"></i> <br />
                         </div>
                       </div>
@@ -156,7 +162,7 @@ class School extends Component {
                     <label className="tab-label" htmlFor="chck5">
                       2016-2017<b>Baccalauréat</b>
                       Économique et Social
-                    </label>
+                      &nbsp;</label>
                     <div className="tab-content">
                     <div className="row">
                         <Avatar
@@ -169,7 +175,7 @@ class School extends Component {
                         />
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
-                          Université de Toulon
+                          Lycée Maine de Biran
                           <i className="fa fa-globe" aria-hidden="true"></i> <br />
                         </div>
                       </div>
@@ -179,7 +185,24 @@ class School extends Component {
               </div>
             </div>
           </div>
-          <br />{" "}
+         
+        
+          <div id="profesionnel-title">
+            <h2
+              style={{
+                color: "white",
+                fontFamily: "Roboto",
+                fontSize: "1.8rem",
+                textAlign: "center",
+              }}
+            >
+              <b>Expériences Professionnelles</b>
+            </h2>
+          </div>
+         
+          
+          <br />
+          <br />
         </div>
       </div>
     );

@@ -1,4 +1,3 @@
-
 /////
 import React from "react";
 import ReactDOM from "react-dom";
@@ -13,8 +12,8 @@ import "assets/demo/demo.css?v=1.3.0";
 import Index from "views/Index.js";
 
 import Aos from "aos";
-import 'aos/dist/aos.css';
-import Carte from "views/Carte";
+import "aos/dist/aos.css";
+
 Aos.init();
 // others
 
@@ -22,10 +21,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
-      <Route path="/maps" element = {<Carte />} />
-        
-      
-      
+
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,

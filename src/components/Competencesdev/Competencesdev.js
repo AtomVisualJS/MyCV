@@ -145,50 +145,49 @@ const Competencesdev = () => {
     setOpenDocker(true);
   };
 
+  /// Python
+  const [openPython, setOpenPython] = React.useState(false);
 
-    /// Python
-    const [openPython, setOpenPython] = React.useState(false);
+  const handleTooltipClosePython = () => {
+    setOpenPython(false);
+  };
 
-    const handleTooltipClosePython = () => {
-      setOpenPython(false);
-    };
-  
-    const handleTooltipOpenPython = () => {
-      setOpenPython(true);
-    };
-  
-    /// Jupyter
-    const [openJupyter, setOpenJupyter] = React.useState(false);
-  
-    const handleTooltipCloseJupyter = () => {
-      setOpenJupyter(false);
-    };
-  
-    const handleTooltipOpenJupyter = () => {
-      setOpenJupyter(true);
-    };
-  
-    /// Pandas
-    const [openPandas, setOpenPandas] = React.useState(false);
-  
-    const handleTooltipClosePandas = () => {
-      setOpenPandas(false);
-    };
-  
-    const handleTooltipOpenPandas = () => {
-      setOpenPandas(true);
-    };
-  
-    /// Matplotlib
-    const [openMatplotlib, setOpenMatplotlib] = React.useState(false);
-  
-    const handleTooltipCloseMatplotlib = () => {
-      setOpenMatplotlib(false);
-    };
-  
-    const handleTooltipOpenMatplotlib = () => {
-      setOpenMatplotlib(true);
-    };
+  const handleTooltipOpenPython = () => {
+    setOpenPython(true);
+  };
+
+  /// Jupyter
+  const [openJupyter, setOpenJupyter] = React.useState(false);
+
+  const handleTooltipCloseJupyter = () => {
+    setOpenJupyter(false);
+  };
+
+  const handleTooltipOpenJupyter = () => {
+    setOpenJupyter(true);
+  };
+
+  /// Pandas
+  const [openPandas, setOpenPandas] = React.useState(false);
+
+  const handleTooltipClosePandas = () => {
+    setOpenPandas(false);
+  };
+
+  const handleTooltipOpenPandas = () => {
+    setOpenPandas(true);
+  };
+
+  /// Matplotlib
+  const [openMatplotlib, setOpenMatplotlib] = React.useState(false);
+
+  const handleTooltipCloseMatplotlib = () => {
+    setOpenMatplotlib(false);
+  };
+
+  const handleTooltipOpenMatplotlib = () => {
+    setOpenMatplotlib(true);
+  };
 
   return (
     <div
@@ -197,11 +196,28 @@ const Competencesdev = () => {
         backgroundSize: "cover",
       }}
     >
+      <div
+        style={{
+          textAlign: "center",
+          paddingTop: "4%",
+          fontSize: "2.5em",
+        }}
+      
+      >
+        Compétences Informatiques
+        </div>
       <div className="album py-5">
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div className="col">
               <div className="card shadow-sm">
+                <h4
+                  style={{
+                    paddingLeft: "25px",
+                  }}
+                >
+                  Développeur Front-End
+                </h4>
                 <div className="card-body">
                   <ClickAwayListener onClickAway={handleTooltipCloseJs}>
                     <Tooltip
@@ -323,6 +339,13 @@ const Competencesdev = () => {
             </div>
             <div className="col">
               <div className="card shadow-sm">
+                <h4
+                  style={{
+                    paddingLeft: "25px",
+                  }}
+                >
+                  Développeur Back-End
+                </h4>
                 <div className="card-body">
                   <ClickAwayListener onClickAway={handleTooltipCloseNode}>
                     <Tooltip
@@ -422,92 +445,104 @@ const Competencesdev = () => {
             </div>
             <div className="col">
               <div className="card shadow-sm">
+                <h4
+                  style={{
+                    paddingLeft: "25px",
+                  }}
+                >
+                  Analyse de données
+                </h4>
                 <div className="card-body">
-                <ClickAwayListener onClickAway={handleTooltipClosePython}>
-                      <Tooltip
-                        PopperProps={{
-                          disablePortal: true,
-                        }}
-                        onClose={handleTooltipClosePython}
-                        open={openPython}
-                        disableFocusListener
-                        disableHoverListener
-                        disableTouchListener
-                        title="Python"
-                      >
-                        <Button onClick={handleTooltipOpenPython}>
-                          {" "}
-                          <Avatar src={PythonImg} />
-                        </Button>
-                      </Tooltip>
-                    </ClickAwayListener>
-
-                    <ClickAwayListener onClickAway={handleTooltipCloseJupyter}>
-                      <Tooltip
-                        PopperProps={{
-                          disablePortal: true,
-                        }}
-                        onClose={handleTooltipCloseJupyter}
-                        open={openJupyter}
-                        disableFocusListener
-                        disableHoverListener
-                        disableTouchListener
-                        title="Jupyter Notebook"
-                      >
-                        <Button onClick={handleTooltipOpenJupyter}>
-                          {" "}
-                          <Avatar src={JupyterImg} />
-                        </Button>
-                      </Tooltip>
-                    </ClickAwayListener>
-
-                    <ClickAwayListener onClickAway={handleTooltipClosePandas}>
-                      <Tooltip
-                        PopperProps={{
-                          disablePortal: true,
-                        }}
-                        onClose={handleTooltipClosePandas}
-                        open={openPandas}
-                        disableFocusListener
-                        disableHoverListener
-                        disableTouchListener
-                        title="Pandas"
-                      >
-                        <Button onClick={handleTooltipOpenPandas}>
-                          {" "}
-                          <Avatar src={PandasImg} />
-                        </Button>
-                      </Tooltip>
-                    </ClickAwayListener>
-
-                    <ClickAwayListener
-                      onClickAway={handleTooltipCloseMatplotlib}
+                  <ClickAwayListener onClickAway={handleTooltipClosePython}>
+                    <Tooltip
+                      PopperProps={{
+                        disablePortal: true,
+                      }}
+                      onClose={handleTooltipClosePython}
+                      open={openPython}
+                      disableFocusListener
+                      disableHoverListener
+                      disableTouchListener
+                      title="Python"
                     >
-                      <Tooltip
-                        PopperProps={{
-                          disablePortal: true,
-                        }}
-                        onClose={handleTooltipCloseMatplotlib}
-                        open={openMatplotlib}
-                        disableFocusListener
-                        disableHoverListener
-                        disableTouchListener
-                        title="Matplotlib"
-                      >
-                        <Button onClick={handleTooltipOpenMatplotlib}>
-                          {" "}
-                          <Avatar src={MatplotlibImg} />
-                        </Button>
-                      </Tooltip>
-                    </ClickAwayListener>
+                      <Button onClick={handleTooltipOpenPython}>
+                        {" "}
+                        <Avatar src={PythonImg} />
+                      </Button>
+                    </Tooltip>
+                  </ClickAwayListener>
+
+                  <ClickAwayListener onClickAway={handleTooltipCloseJupyter}>
+                    <Tooltip
+                      PopperProps={{
+                        disablePortal: true,
+                      }}
+                      onClose={handleTooltipCloseJupyter}
+                      open={openJupyter}
+                      disableFocusListener
+                      disableHoverListener
+                      disableTouchListener
+                      title="Jupyter Notebook"
+                    >
+                      <Button onClick={handleTooltipOpenJupyter}>
+                        {" "}
+                        <Avatar src={JupyterImg} />
+                      </Button>
+                    </Tooltip>
+                  </ClickAwayListener>
+
+                  <ClickAwayListener onClickAway={handleTooltipClosePandas}>
+                    <Tooltip
+                      PopperProps={{
+                        disablePortal: true,
+                      }}
+                      onClose={handleTooltipClosePandas}
+                      open={openPandas}
+                      disableFocusListener
+                      disableHoverListener
+                      disableTouchListener
+                      title="Pandas"
+                    >
+                      <Button onClick={handleTooltipOpenPandas}>
+                        {" "}
+                        <Avatar src={PandasImg} />
+                      </Button>
+                    </Tooltip>
+                  </ClickAwayListener>
+
+                  <ClickAwayListener onClickAway={handleTooltipCloseMatplotlib}>
+                    <Tooltip
+                      PopperProps={{
+                        disablePortal: true,
+                      }}
+                      onClose={handleTooltipCloseMatplotlib}
+                      open={openMatplotlib}
+                      disableFocusListener
+                      disableHoverListener
+                      disableTouchListener
+                      title="Matplotlib"
+                    >
+                      <Button onClick={handleTooltipOpenMatplotlib}>
+                        {" "}
+                        <Avatar src={MatplotlibImg} />
+                      </Button>
+                    </Tooltip>
+                  </ClickAwayListener>
                 </div>
               </div>
             </div>
+
+            
             <div className="col">
               <div className="card shadow-sm">
-                <div className="card-body">
-
-                </div>
+                <h4
+                  style={{
+                    paddingLeft: "25px",
+                  }}
+                >
+                  Marketing et Communication
+                </h4>
+                <div className="card-body"></div>
               </div>
             </div>
           </div>

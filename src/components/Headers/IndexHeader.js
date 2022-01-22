@@ -25,12 +25,12 @@ function IndexHeader() {
                 
                 <b
                   style={{
-                    fontSize: "1.2em",
+                    fontSize: "1em",
                     color: "yellow",
                     fontWeight: "bold",
 
                   }}
-                > Javascript</b>
+                > Javascript </b>
                 </div>
               <br />
               <div className="typing-demo">
@@ -38,7 +38,7 @@ function IndexHeader() {
                
                 <b
                   style={{
-                    fontSize: "1.2em",
+                    fontSize: "1em",
                     color: "lightblue",
                     fontWeight: "bold",
                   }}
@@ -50,7 +50,7 @@ function IndexHeader() {
                Consultant  
                 <b
                   style={{
-                    fontSize: "1.2em",
+                    fontSize: "1em",
                     color: "orange",
                     fontWeight: "bold",
                   }}

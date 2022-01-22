@@ -2,7 +2,7 @@
 import Icons from "./Icons/Icons";
 import React, { Component } from "react";
 import Maps from "./Maps/Maps";
-import Qualités from "../Mur/Mur";
+//import Qualités from "../Mur/Mur";
 class Footer extends Component {
   render() {
     return (
@@ -13,12 +13,11 @@ class Footer extends Component {
               "url(https://static.vecteezy.com/ti/photos-gratuite/p1/1259659-surface-beton-gris-clair-gratuit-photo.jpg)",
           }}
         >
-          <Qualités />
+         
           <br />
           <div className="container">
             <div className="row">
-              <div className="c" data-aos="flip-left" 
-              data-aos-duration="3000"
+              <div className="c" data-aos="zoom-in"
               style={{ width: "45%", margin: "2.5%" }}>
                 <div className="card">
                   <div
@@ -56,8 +55,8 @@ class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className="c" data-aos="flip-right" 
-                data-aos-duration="3000"
+              <div className="c" data-aos="zoom-in" 
+                
               style={{ width: "45%", margin: "2.5%" }}>
                 <div className="card">
                   <div

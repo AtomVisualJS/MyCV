@@ -6,10 +6,10 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import Profile from "components/Profile/profile";
 import Competencesdev from "components/Competencesdev/Competencesdev";
 //import Parcours from "components/Parcours/Parcours";
-//import Footer from "components/Footer/Footer";
+import Footer from "components/Footer/Footer";
 import School from "components/School/School";
-import Mur from "components/Mur/Mur";
-import Plancher from "components/Plancher/Plancher";
+//import Mur from "components/Mur/Mur";
+//import Plancher from "components/Plancher/Plancher";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -26,8 +26,9 @@ function Index() {
       <Profile />
       <Competencesdev />
       <School />
-      <Mur />
-      <Plancher />
+      
+      
+      <Footer />
     </>
   );
 }
