@@ -9,13 +9,13 @@ class Plancher extends Component {
                 <div
                     style={{
                         backgroundImage: `url(${PlancherImage})`,
-                        height:"30vh",
+                        height:"20vh",
                         backgroundSize:"cover",
                         
                         
                     }}
                 >
-hkhkhkhkhkh
+llpllplpl
                 </div>
             </div>
         );

@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Avatar from "@mui/material/Avatar";
 import "./parcours.scss";
 
+/// Images
+
+import UnivTln from "./ImgSchool/tln.png";
+
 class School extends Component {
   render() {
     return (
@@ -54,11 +58,13 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck1" />
                     <label className="tab-label" htmlFor="chck1">
-                      2019-2020&nbsp; <b>Licence 3 </b> Information-Communication
+                      2019-2020&nbsp;&nbsp; <b>Licence 3 </b>{" "}
+                      &nbsp;&nbsp; Information-Communication
                     </label>
                     <div className="tab-content">
                       <div className="row">
                         <Avatar
+                          src={UnivTln}
                           sx={{
                             width: "30px",
                             height: "30px",
@@ -67,42 +73,82 @@ class School extends Component {
                         />
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
-                          Université de Toulon <br />
-                          ..... 830dksndksnd
+                          Université de Toulon
+                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
                         </div>
-                      
                       </div>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck2" />
                     <label className="tab-label" htmlFor="chck2">
-                      2020-2021&nbsp; <b>Licence 2 </b> Information-Communication
+                      2020-2021&nbsp;&nbsp; <b>Licence 2 </b>{" "}
+                      &nbsp;&nbsp; Information-Communication
                     </label>
                     <div className="tab-content">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      A, in!
+                    <div className="row">
+                        <Avatar
+                          src={UnivTln}
+                          sx={{
+                            width: "30px",
+                            height: "30px",
+                            marginLeft: "10px",
+                          }}
+                        />
+                        &nbsp;&nbsp;
+                        <div style={{ fontSize: "1em" }}>
+                          Université de Toulon
+                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck3" />
                     <label className="tab-label" htmlFor="chck3">
-                      2019-2020&nbsp; <b>Licence 1 </b> Information-Communication
+                      2019-2020&nbsp;&nbsp;&nbsp; <b>Licence 1 </b>{" "}
+                      &nbsp;&nbsp; Information-Communication
                     </label>
                     <div className="tab-content">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      A, in!
+                    <div className="row">
+                        <Avatar
+                          src={UnivTln}
+                          sx={{
+                            width: "30px",
+                            height: "30px",
+                            marginLeft: "10px",
+                          }}
+                        />
+                        &nbsp;&nbsp;
+                        <div style={{ fontSize: "1em" }}>
+                          Université de Toulon
+                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck4" />
                     <label className="tab-label" htmlFor="chck4">
-                      2017-2019 &nbsp;<b>Licence 1 </b> &nbsp; Droit Public, Privé et
-                      Pénal
+                      2017-2019 &nbsp;<b>Licence 1 </b> &nbsp; Droit Public,
+                      Privé et Pénal
                     </label>
                     <div className="tab-content">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      A, in!
+                    <div className="row">
+                        <Avatar
+                          src={UnivTln}
+                          sx={{
+                            width: "30px",
+                            height: "30px",
+                            marginLeft: "10px",
+                          }}
+                        />
+                        &nbsp;&nbsp;
+                        <div style={{ fontSize: "1em" }}>
+                          Université de Toulon
+                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="tab">
@@ -112,16 +158,29 @@ class School extends Component {
                       Économique et Social
                     </label>
                     <div className="tab-content">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      A, in!
+                    <div className="row">
+                        <Avatar
+                          src={UnivTln}
+                          sx={{
+                            width: "30px",
+                            height: "30px",
+                            marginLeft: "10px",
+                          }}
+                        />
+                        &nbsp;&nbsp;
+                        <div style={{ fontSize: "1em" }}>
+                          Université de Toulon
+                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        <br /> </div>
-       
+          <br />{" "}
+        </div>
       </div>
     );
   }

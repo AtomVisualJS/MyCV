@@ -10,6 +10,7 @@ class Qualites extends Component {
           style={{
             backgroundImage: `url(${Brique})`,
             backgroundSize: "cover",
+            height: "auto",
           }}
         >
           <div className="container">
@@ -19,7 +20,7 @@ class Qualites extends Component {
                   className="roller"
                   style={{
                     marginTop: "5vh",
-                    height: "30vh",
+                    height: "20vh",
                   }}
                 >
                   <span
@@ -30,15 +31,15 @@ class Qualites extends Component {
                       fontWeight: "bold",
                     }}
                   >
+                   
+                  
                     <b> Curieux</b>
                     <br />
                     <b style={{ color: "lightblue" }}>Stratège</b>
                     <br />
                     <b style={{ color: "orange" }}>Créatif</b>
-                    <br />
                   </span>
                   <span id="spare-time"></span>
-                  <br />
                 </div>
               </h1>
             </div>

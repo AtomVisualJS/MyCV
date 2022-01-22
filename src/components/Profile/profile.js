@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Moi from "./moi.png";
 import "../Headers/css/header.css";
 import "./profile.css";
-import Space from "./space.jpg";
 
 class Profile extends Component {
   render() {
@@ -11,22 +10,22 @@ class Profile extends Component {
       <div>
         <div
           style={{
-            backgroundImage: `url(${Space})`,
+            backgroundImage:
+              "url(" + require("assets/img/antoine-barres.jpg").default + ")",
             backgroundSize: "cover",
           }}
         >
-         
-            <div><br /> <br /> <br />
-              <div id="login-button" data-aos="zoom-in">
-                <div>
-                  <img src={Moi} alt="" />
-                </div>
+          <div>
+            <br /> <br /> <br />
+            <div id="login-button">
+              <div>
+                <img src={Moi} alt="" />
               </div>
-              <Terminal />
-              <br /> <br />
             </div>
+            <Terminal />
+            <br /> <br />
           </div>
-       
+        </div>
       </div>
     );
   }

@@ -13,7 +13,7 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/login-image.jpg").default + ")",
+            "url(" + require("assets/img/space.jpg").default + ")",
         }}
       >
         <div className="filter" />
@@ -21,7 +21,9 @@ function IndexHeader() {
           <Container>
             <div className="title-brand">
               <div className="typing-demo">
-                Développeur<b
+                Développeur
+                
+                <b
                   style={{
                     fontSize: "1.2em",
                     color: "yellow",
@@ -32,7 +34,9 @@ function IndexHeader() {
                 </div>
               <br />
               <div className="typing-demo">
-                Développeur<b
+                Développeur
+               
+                <b
                   style={{
                     fontSize: "1.2em",
                     color: "lightblue",
