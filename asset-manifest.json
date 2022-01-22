@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MyCV/static/css/main.92e1be52.chunk.css",
-    "main.js": "/MyCV/static/js/main.fc1c17ef.chunk.js",
-    "main.js.map": "/MyCV/static/js/main.fc1c17ef.chunk.js.map",
+    "main.css": "/MyCV/static/css/main.9d6aa7a6.chunk.css",
+    "main.js": "/MyCV/static/js/main.a1ce8a94.chunk.js",
+    "main.js.map": "/MyCV/static/js/main.a1ce8a94.chunk.js.map",
     "runtime-main.js": "/MyCV/static/js/runtime-main.a8d0aa60.js",
     "runtime-main.js.map": "/MyCV/static/js/runtime-main.a8d0aa60.js.map",
     "static/css/2.10deb7b8.chunk.css": "/MyCV/static/css/2.10deb7b8.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.326c2548.chunk.js.map": "/MyCV/static/js/2.326c2548.chunk.js.map",
     "index.html": "/MyCV/index.html",
     "static/css/2.10deb7b8.chunk.css.map": "/MyCV/static/css/2.10deb7b8.chunk.css.map",
-    "static/css/main.92e1be52.chunk.css.map": "/MyCV/static/css/main.92e1be52.chunk.css.map",
+    "static/css/main.9d6aa7a6.chunk.css.map": "/MyCV/static/css/main.9d6aa7a6.chunk.css.map",
     "static/js/2.326c2548.chunk.js.LICENSE.txt": "/MyCV/static/js/2.326c2548.chunk.js.LICENSE.txt",
     "static/media/acier.a9fb83ea.jpg": "/MyCV/static/media/acier.a9fb83ea.jpg",
     "static/media/antoine-barres.jpg": "/MyCV/static/media/antoine-barres.bc3299c2.jpg",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.a8d0aa60.js",
     "static/css/2.10deb7b8.chunk.css",
     "static/js/2.326c2548.chunk.js",
-    "static/css/main.92e1be52.chunk.css",
-    "static/js/main.fc1c17ef.chunk.js"
+    "static/css/main.9d6aa7a6.chunk.css",
+    "static/js/main.a1ce8a94.chunk.js"
   ]
 }
