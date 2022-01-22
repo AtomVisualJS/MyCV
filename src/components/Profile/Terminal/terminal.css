@@ -54,12 +54,14 @@
     left: 25%;
     margin-left: -5em;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.7em;
     font-family: monospace;
     white-space: nowrap;
     overflow: hidden;
     width: 0;
   }
+
+ 
   
   span {
     color: #fff;
@@ -82,7 +84,7 @@
   }
   
   .line2 {
-    color: #CDEE69;
+    color: #00ff00;
     -webkit-animation: type .5s 4.25s steps(20, end) forwards;
     -moz-animation: type .5s 4.25s steps(20, end) forwards;
     -o-animation: type .5s 4.25s steps(20, end) forwards;
@@ -97,7 +99,8 @@
   }
   
   .line3 {
-    color: #c1d7db;
+    color: #CDEE69;
+    
     -webkit-animation: type .5s 7.5s steps(20, end) forwards;
     -moz-animation: type .5s 7.5s steps(20, end) forwards;
     -o-animation: type .5s 7.5s steps(20, end) forwards;
