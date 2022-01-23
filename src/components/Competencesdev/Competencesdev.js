@@ -200,11 +200,11 @@ const Competencesdev = () => {
         style={{
           textAlign: "center",
           paddingTop: "4%",
-          fontSize: "2.5em",
+          fontSize: "3em",
         }}
       
       >
-        Compétences Informatiques
+        Compétences
         </div>
       <div className="album py-5">
         <div className="container">

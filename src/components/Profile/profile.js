@@ -3,9 +3,7 @@ import React, { Component } from "react";
 import Moi from "./moi.png";
 import "../Headers/css/header.css";
 import "./profile.css";
-import Qualites from "components/Mur/Qualités";
-
-
+import Qualites from "./Qualités/Qualités";
 
 class Profile extends Component {
   render() {
@@ -20,19 +18,12 @@ class Profile extends Component {
         >
           <div>
             <br /> <br /> <br />
-            <div
-              id="login-button"
-              data-aos="flip-left"
-              data-aos-duration="2000"
-            >
-              <div>
-                <img src={Moi} alt="" />
-              </div>
+            <div id="login-button">
+              <img src={Moi} alt="" />
             </div>
             <Terminal />
             <br />
             <Qualites />
-         
           </div>
         </div>
       </div>

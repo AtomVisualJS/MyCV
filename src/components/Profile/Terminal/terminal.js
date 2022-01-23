@@ -6,9 +6,8 @@ const Terminal = () => {
   return (
     <div>
       <br />
-
       <div id="terminalbody">
-        <div data-aos="zoom-in-left" data-duration="12000">
+        <div>
           <img
             src={MathieuLogo}
             alt=""
@@ -22,34 +21,23 @@ const Terminal = () => {
           <div className="fakeButtons fakeMinimize"></div>
           <div className="fakeButtons fakeZoom"></div>
         </div>
-        <div class="fakeScreen">
-          <p class="line1">
-            {">"}&nbsp;&ldquo;Mathieu Vialatte 22 ans&rdquo;
-            <span class="cursor1">_</span>
-          </p> 
-          <p class="line2">
-            &nbsp;&nbsp;&ldquo;
+        <div className="fakeScreen">
+          <p className="line1"> {">"} Mathieu Vialatte 22 ans</p>
+          <p className="line2">
             <a
+              href="mailto:atomvisualjs@gmail.com"
               style={{
                 color: "#00ff00",
-
                 fontFamily: "monospace",
               }}
-              href="/"
             >
-              atomvisualjs@gmail.com
+              {">"} atomvisualjs@gmail.com
             </a>
-            &rdquo;&nbsp;<span class="cursor3">_</span>
           </p>
-          <p class="line3">
-            &nbsp;&nbsp;&ldquo;Mon adresse: Toulon&rdquo;
-            <span class="cursor2">_</span>
-          </p>
-         
-          <p class="line4">
-            {" "}
-            {">"}
-            <span class="cursor4">_</span>
+          <p className="line3">{">"} Mon adresse: Toulon</p>
+          <p className="line4">
+             {">"}
+            <span className="cursor4"> _</span>
           </p>
         </div>
       </div>

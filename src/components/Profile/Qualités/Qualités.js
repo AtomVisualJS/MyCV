@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./mur.css";
+import "./Qualités.css";
 
 class Qualites extends Component {
   render() {
@@ -27,7 +27,7 @@ class Qualites extends Component {
                 id="rolltext"
                 style={{
                   color: "white",
-                  fontSize: "5vh",
+                  fontSize: "2rem",
                   fontWeight: "bold",
                 }}
               >
