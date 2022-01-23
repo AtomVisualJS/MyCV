@@ -4,13 +4,13 @@
 
 #apple,
 #twitter,
-#github,
-#facebook {
+#github
+ {
   font-size: 5em;
   color: #fff;
   border-radius: 29px;
-  padding-left: 15.666666%;
-  padding-right: 15.66666%;
+  padding-left: 15.666666666666666666%;
+  padding-right: 15.66666666666666666%;
   align-items: center;
   text-align: center;
   transition: all 0.5s ease;
@@ -39,3 +39,4 @@
     filter: hue-rotate(360deg);
   }
 }
+

@@ -7,6 +7,8 @@ import "./parcours.scss";
 import UnivTln from "./ImgSchool/tln.png";
 import UnivAvi from "./ImgSchool/avi.jpg";
 import UnivBdx from "./ImgSchool/bdx.png";
+import TextMobileStepper from "./TextMobileStepper";
+//import TextMobileStepper from "./TextMobileStepper";
 
 
 
@@ -78,9 +80,9 @@ class School extends Component {
                           }}
                         />
                         &nbsp;&nbsp;
-                        <div style={{ fontSize: "1em" }}>
-                          Université de Toulon
-                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                        <div style={{ fontSize: "1em", padding:"5px" }}>
+                        
+ <br />
                         </div>
                       </div>
                     </div>
@@ -199,8 +201,16 @@ class School extends Component {
               <b>Expériences Professionnelles</b>
             </h2>
           </div>
-         
-          
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+              <TextMobileStepper />
+          </div>
           <br />
           <br />
         </div>

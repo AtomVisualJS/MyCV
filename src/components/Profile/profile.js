@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Moi from "./moi.png";
 import "../Headers/css/header.css";
 import "./profile.css";
-import Qualites from "./Qualités/Qualités";
 
 class Profile extends Component {
   render() {
@@ -23,7 +22,6 @@ class Profile extends Component {
             </div>
             <Terminal />
             <br />
-            <Qualites />
           </div>
         </div>
       </div>

@@ -199,14 +199,15 @@ const Competencesdev = () => {
       <div
         style={{
           textAlign: "center",
-          paddingTop: "4%",
+          paddingTop: "3%",
+          paddingBottom: "3%",
           fontSize: "3em",
+          fontWeight: "bold",
         }}
-      
       >
         Compétences
-        </div>
-      <div className="album py-5">
+      </div>
+      <div className="album">
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div className="col">
@@ -532,7 +533,6 @@ const Competencesdev = () => {
               </div>
             </div>
 
-            
             <div className="col">
               <div className="card shadow-sm">
                 <h4
