@@ -210,7 +210,7 @@ const Competencesdev = () => {
       <div className="album">
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div className="col">
+            <div className="col" data-aos="flip-up">
               <div className="card shadow-sm">
                 <h4
                   style={{
@@ -338,7 +338,7 @@ const Competencesdev = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="zoom-in">
               <div className="card shadow-sm">
                 <h4
                   style={{
@@ -444,7 +444,7 @@ const Competencesdev = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="flip-down">
               <div className="card shadow-sm">
                 <h4
                   style={{
