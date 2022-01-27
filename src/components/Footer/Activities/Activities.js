@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import "./Activities.css";
 
@@ -9,12 +8,8 @@ class Activities extends Component {
         <div class="marquee">
           <div class="track">
             <div class="content">
-              &nbsp;
-              
-              Infinite Marquee with long sentence Infinite Marquee with
-              long sentence 
-              Infinite Marquee with long sentence 
-              
+              &nbsp; Marketing - Informatique - Data Science - Neurosciences -
+              Captologie - Communication - Psychologie - Astronomie
             </div>
           </div>
         </div>
