@@ -14,16 +14,12 @@ const steps = [
     Analyse des processus d’influence et décisionnel chez plusieurs publics (enfants, adultes atteint de pathologies mentales,...)`,
   },
   {
-    label: "Vendeur polyvalent, chez la marque BUT",
-    description:
-      "An ad group contains one or more ads which target a shared set of keywords.",
+    label: "Vendeur polyvalent BUT",
+    description:"Élaboration d’approches persuasives adaptée à un public cible. Connaissances des stratégies commerciales et marketing d’une marque.",
   },
   {
-    label: "Préparateur de commandes chez la marque E.Leclerc.",
-    description: `Try out different ad text to see what brings in the most customers,
-              and learn how to enhance your ads using features like ad extensions.
-              If you run into any problems with your ads, find out how to tell if
-              they're running and how to resolve approval issues.`,
+    label: "Préparateur de commandes E.Leclerc.",
+    description: `Connaissances des objets et des pratiques de consommation Apprentissage de la relation et de la satisfaction client..`,
   },
 ];
 
@@ -41,7 +37,29 @@ export default function TextMobileStepper() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
+    <Box
+      sx={{
+        maxWidth: 400,
+        flexGrow: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        margin: "auto",
+      }}
+    >
+      <div
+                  style={{
+                    color: "white",
+                    backgroundColor: "rgba(0,0,0,0.5)",
+                    fontFamily: "Roboto",
+                    fontSize: "2rem",
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    borderTopLeftRadius: "5px",
+          borderTopRightRadius: "5px",
+                  }}
+                >
+                  Mes Expériences
+                </div>
       <Paper
         square
         elevation={0}
@@ -49,10 +67,11 @@ export default function TextMobileStepper() {
           display: "flex",
           alignItems: "center",
           height: 50,
-          pl: 2,
-          borderRadius: "5px",
-          backgroundColor: "transparent",
-          color: "white",
+          pl: 1,
+          backgroundColor: "white",
+          
+          color: "black",
+          borderColor: "black",
         }}
       >
         <div
@@ -70,15 +89,16 @@ export default function TextMobileStepper() {
           maxWidth: 400,
           pl: 2,
           width: "100%",
-          color: "white",
-          borderRadius: "15px",
+          color: "black",
+          borderRadius: "0px",
           fontSize: "0.956rem",
+          backgroundColor: "white",
         }}
       >
         {steps[activeStep].description}
       </Box>
       <MobileStepper
-        style={{ backgroundColor: "transparent" }}
+        style={{ backgroundColor: "transparent", color:"whitesmoke" }}
         variant="text"
         steps={maxSteps}
         position="static"

@@ -24,7 +24,11 @@ const Terminal = () => {
         <div className="fakeScreen">
           <p className="line1"> {">"} Mathieu Vialatte 22 ans</p>
           <p className="line2">
-            <a
+            {">"} Mon adresse: Toulon
+          </p>
+          <p className="line3">{">"}</p>
+          <p className="line1">
+          <a
               href="mailto:atomvisualjs@gmail.com"
               style={{
                 color: "#00ff00",
@@ -33,10 +37,6 @@ const Terminal = () => {
             >
               {">"} atomvisualjs@gmail.com
             </a>
-          </p>
-          <p className="line3">{">"} Mon adresse: Toulon</p>
-          <p className="line4">
-             {">"}
             <span className="cursor4"> _</span>
           </p>
         </div>

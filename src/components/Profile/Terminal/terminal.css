@@ -84,7 +84,7 @@
   }
   
   .line2 {
-    color: #00ff00;
+    color: #CDEE69;
     -webkit-animation: type .5s 4.25s steps(20, end) forwards;
     -moz-animation: type .5s 4.25s steps(20, end) forwards;
     -o-animation: type .5s 4.25s steps(20, end) forwards;
@@ -99,7 +99,7 @@
   }
   
   .line3 {
-    color: #CDEE69;
+    color: #eea969;
     
     -webkit-animation: type .5s 7.5s steps(20, end) forwards;
     -moz-animation: type .5s 7.5s steps(20, end) forwards;

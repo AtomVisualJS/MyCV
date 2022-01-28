@@ -7,10 +7,11 @@ import "./parcours.scss";
 import UnivTln from "./ImgSchool/tln.png";
 import UnivAvi from "./ImgSchool/avi.jpg";
 import UnivBdx from "./ImgSchool/bdx.png";
-import TextMobileStepper from "./TextMobileStepper";
 //import TextMobileStepper from "./TextMobileStepper";
-
-
+//import TextMobileStepper from "./TextMobileStepper";
+//import Ext from "components/Footer/Ext/Ext";
+import Qualites from "components/Footer/Qualités/Qualités";
+import TextMobileStepper from "./TextMobileStepper";
 
 class School extends Component {
   render() {
@@ -19,7 +20,8 @@ class School extends Component {
         <div
           className="mainSchool"
           style={{
-            backgroundImage: "url(" + require("./header.jpg").default + ")",
+            backgroundImage:
+              "url(" + require("./login-image.jpg").default + ")",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -46,7 +48,6 @@ class School extends Component {
                 alignItems: "center",
                 margin: "auto",
                 padding: "5%",
-                
               }}
             >
               <div className="colA">
@@ -80,9 +81,8 @@ class School extends Component {
                           }}
                         />
                         &nbsp;&nbsp;
-                        <div style={{ fontSize: "1em", padding:"5px" }}>
-                        
- <br />
+                        <div style={{ fontSize: "1em", padding: "5px" }}>
+                          Université de Toulon
                         </div>
                       </div>
                     </div>
@@ -91,10 +91,10 @@ class School extends Component {
                     <input type="checkbox" id="chck2" />
                     <label className="tab-label" htmlFor="chck2">
                       <i>2020-2021</i>&nbsp;&nbsp; <b>Licence 2 </b>{" "}
-                      &nbsp;&nbsp; Information-Communication
-                      &nbsp;</label>
+                      &nbsp;&nbsp; Information-Communication &nbsp;
+                    </label>
                     <div className="tab-content">
-                    <div className="row">
+                      <div className="row">
                         <Avatar
                           src={UnivAvi}
                           sx={{
@@ -106,7 +106,11 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Université d'Avignon
-                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                          <i
+                            className="fa fa-globe"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -114,11 +118,11 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck3" />
                     <label className="tab-label" htmlFor="chck3">
-                    <i>2019-2020</i>&nbsp;&nbsp;&nbsp; <b>Licence 1 </b>{" "}
-                      &nbsp;&nbsp; Information-Communication
-                      &nbsp;</label>
+                      <i>2019-2020</i>&nbsp;&nbsp;&nbsp; <b>Licence 1 </b>{" "}
+                      &nbsp;&nbsp; Information-Communication &nbsp;
+                    </label>
                     <div className="tab-content">
-                    <div className="row">
+                      <div className="row">
                         <Avatar
                           src={UnivAvi}
                           sx={{
@@ -130,7 +134,11 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Université d'Avignon
-                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                          <i
+                            className="fa fa-globe"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -138,11 +146,11 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck4" />
                     <label className="tab-label" htmlFor="chck4">
-                    <i>2017-2019</i> &nbsp;<b>Licence 1 </b> &nbsp; Droit Public,
-                      Privé et Pénal
-                      &nbsp;</label>
+                      <i>2017-2019</i> &nbsp;<b>Licence 1 </b> &nbsp; Droit
+                      Public, Privé et Pénal &nbsp;
+                    </label>
                     <div className="tab-content">
-                    <div className="row">
+                      <div className="row">
                         <Avatar
                           src={UnivBdx}
                           sx={{
@@ -154,7 +162,11 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Université de Bordeaux
-                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                          <i
+                            className="fa fa-globe"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -162,11 +174,12 @@ class School extends Component {
                   <div className="tab">
                     <input type="checkbox" id="chck5" />
                     <label className="tab-label" htmlFor="chck5">
-                    <i>2016-2017</i><b>Baccalauréat</b>
-                      Économique et Social
-                      &nbsp;</label>
+                      <i>2016-2017</i>
+                      <b>Baccalauréat</b>
+                      Économique et Social &nbsp;
+                    </label>
                     <div className="tab-content">
-                    <div className="row">
+                      <div className="row">
                         <Avatar
                           src={UnivTln}
                           sx={{
@@ -178,7 +191,11 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Lycée Maine de Biran
-                          <i className="fa fa-globe" aria-hidden="true"></i> <br />
+                          <i
+                            className="fa fa-globe"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -187,32 +204,14 @@ class School extends Component {
               </div>
             </div>
           </div>
+          <div>
+           <TextMobileStepper />
+          </div>
+          <br />    <br />
+           <Qualites />
          
-        
-          <div id="profesionnel-title">
-            <h2
-              style={{
-                color: "white",
-                fontFamily: "Roboto",
-                fontSize: "1.8rem",
-                textAlign: "center",
-              }}
-            >
-              <b>Expériences Professionnelles</b>
-            </h2>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-              <TextMobileStepper />
-          </div>
-          <br />
-          <br />
+         
+         
         </div>
       </div>
     );

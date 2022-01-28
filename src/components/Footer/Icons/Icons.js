@@ -5,8 +5,8 @@ class Icons extends Component {
   render() {
     return (
       <div>
-        <br />
-        <div id="icons-body">
+       
+        <div id="icons-body"> <br />
           <div className="icons-container">
             <a href="mailto: atomvisualjs@gmail.com">
               <i className="fa fa-envelope" id="apple"></i>
@@ -18,8 +18,8 @@ class Icons extends Component {
               <i className="fa fa-github-square github" id="github"></i>
             </a>
           </div>
-        </div>
-        <br />
+        <br /></div>
+        
       </div>
     );
   }

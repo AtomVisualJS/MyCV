@@ -1,19 +1,23 @@
 import React, { Component } from "react";
 import "./Activities.css";
 
+
 class Activities extends Component {
   render() {
     return (
-      <div className="mainQualities">
-        <div class="marquee">
+     
+         
+        <div className="marquee">
           <div class="track">
             <div class="content">
-              &nbsp; Marketing - Informatique - Data Science - Neurosciences -
-              Captologie - Communication - Psychologie - Astronomie
+              &nbsp; &nbsp;
+              
+              🏍 Moto-cross  - 🥊 Boxe - ♟ Echecs - 📚 Lecture -
+              🖥 Documentaire - 🧑‍💻 Programation - 🖥 Vidéos Youtube - 🎧 Musique -
             </div>
           </div>
         </div>
-      </div>
+     
     );
   }
 }
