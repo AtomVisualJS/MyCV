@@ -11,16 +11,24 @@ class Sport extends Component {
         <section className="section">
           <div className="grid">
             <div className="item">
-              <div className="item__details">Marketing - Communication </div>
+              <div className="item__details">
+                Marketing - Communication 
+              </div>
             </div>
             <div className="item">
-              <div className="item__details">Informatique - Data Science</div>
+              <div className="item__details">
+                Informatique - Data Science
+              </div>
             </div>
             <div className="item">
-              <div className="item__details">Neurosciences - Captologie </div>
+            <div className="item__details">
+              Neurosciences - Captologie 
+            </div>
             </div>
             <div className="item">
-              <div className="item__details"> - Astronomie</div>
+            <div className="item__details"> 
+              Astronomie
+            </div>
             </div>
           </div>
          

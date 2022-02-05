@@ -14,7 +14,6 @@ class MiniMaps extends Component {
   
   render() {
     return (
-      // Important! Always set the container height explicitly
       <div style={{ height: "30vh", width: "100%" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyAFBkgSf3znrZv5XGJj6Ddd3n3lHpCl4CY" }}
