@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyCV/static/css/main.5071f4d2.chunk.css",
+    "main.css": "/MyCV/static/css/main.dcabee40.chunk.css",
     "main.js": "/MyCV/static/js/main.c8ad1e62.chunk.js",
     "main.js.map": "/MyCV/static/js/main.c8ad1e62.chunk.js.map",
     "runtime-main.js": "/MyCV/static/js/runtime-main.a8d0aa60.js",
@@ -10,7 +10,7 @@
     "static/js/2.419b8630.chunk.js.map": "/MyCV/static/js/2.419b8630.chunk.js.map",
     "index.html": "/MyCV/index.html",
     "static/css/2.10deb7b8.chunk.css.map": "/MyCV/static/css/2.10deb7b8.chunk.css.map",
-    "static/css/main.5071f4d2.chunk.css.map": "/MyCV/static/css/main.5071f4d2.chunk.css.map",
+    "static/css/main.dcabee40.chunk.css.map": "/MyCV/static/css/main.dcabee40.chunk.css.map",
     "static/js/2.419b8630.chunk.js.LICENSE.txt": "/MyCV/static/js/2.419b8630.chunk.js.LICENSE.txt",
     "static/media/acier.a9fb83ea.jpg": "/MyCV/static/media/acier.a9fb83ea.jpg",
     "static/media/antoine-barres.jpg": "/MyCV/static/media/antoine-barres.bc3299c2.jpg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.a8d0aa60.js",
     "static/css/2.10deb7b8.chunk.css",
     "static/js/2.419b8630.chunk.js",
-    "static/css/main.5071f4d2.chunk.css",
+    "static/css/main.dcabee40.chunk.css",
     "static/js/main.c8ad1e62.chunk.js"
   ]
 }
