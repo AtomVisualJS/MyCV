@@ -46,7 +46,7 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand data-placement="bottom" href="https://atomvisualjs.github.io/MyCV/" target="_blank">
+          <NavbarBrand data-placement="bottom" href="/MyCV/" target="_blank">
             Mathieu Vialatte
           </NavbarBrand>
           <button
@@ -70,7 +70,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://atomvisualjs.github.io/MyCV/"
+                href="/MyCV/"
                 target="_blank"
                 title="Envoyer E-mail"
               >
