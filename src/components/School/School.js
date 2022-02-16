@@ -106,10 +106,7 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Université d'Avignon
-                          <i
-                            className="fa fa-globe"
-                            aria-hidden="true"
-                          ></i>{" "}
+                        
                           <br />
                         </div>
                       </div>
@@ -134,10 +131,7 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Université d'Avignon
-                          <i
-                            className="fa fa-globe"
-                            aria-hidden="true"
-                          ></i>{" "}
+                        
                           <br />
                         </div>
                       </div>
@@ -162,10 +156,7 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Université de Bordeaux
-                          <i
-                            className="fa fa-globe"
-                            aria-hidden="true"
-                          ></i>{" "}
+                        
                           <br />
                         </div>
                       </div>
@@ -191,10 +182,7 @@ class School extends Component {
                         &nbsp;&nbsp;
                         <div style={{ fontSize: "1em" }}>
                           Lycée Maine de Biran
-                          <i
-                            className="fa fa-globe"
-                            aria-hidden="true"
-                          ></i>{" "}
+                        
                           <br />
                         </div>
                       </div>
