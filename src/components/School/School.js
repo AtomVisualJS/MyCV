@@ -8,10 +8,9 @@ import UnivTln from "./ImgSchool/tln.png";
 import UnivAvi from "./ImgSchool/avi.jpg";
 import UnivBdx from "./ImgSchool/bdx.png";
 //import TextMobileStepper from "./TextMobileStepper";
-//import TextMobileStepper from "./TextMobileStepper";
 //import Ext from "components/Footer/Ext/Ext";
 import Qualites from "components/Footer/Qualités/Qualités";
-import TextMobileStepper from "./TextMobileStepper";
+
 
 class School extends Component {
   render() {
@@ -193,7 +192,7 @@ class School extends Component {
             </div>
           </div>
           <div>
-           <TextMobileStepper />
+           
           </div>
           <br />    <br />
            <Qualites />
