@@ -7,8 +7,6 @@ import "./parcours.scss";
 import UnivTln from "./ImgSchool/tln.png";
 import UnivAvi from "./ImgSchool/avi.jpg";
 import UnivBdx from "./ImgSchool/bdx.png";
-//import TextMobileStepper from "./TextMobileStepper";
-//import Ext from "components/Footer/Ext/Ext";
 import Qualites from "components/Footer/Qualités/Qualités";
 
 
