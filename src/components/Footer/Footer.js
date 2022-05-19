@@ -6,7 +6,7 @@ import Ext from "./Ext/Ext";
 //import Qualites from "./Qualités/Qualités";
 //import Activities from "./Activities/Activities";
 //import Interest from "./Interest/Interest";
-//import Maps from "./Maps/Maps";
+import Maps from "./Maps/Maps";
 import Sport from "./Sport/Sport";
 class Footer extends Component {
   render() {
@@ -25,7 +25,7 @@ class Footer extends Component {
 
               <Ext />
                      
-            
+            <Maps />
             <Icons />
           </div>
         </div>
