@@ -10,7 +10,6 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
-import Maps from "components/Footer/Maps/Maps.js";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +21,6 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
-      <Route path="/maps" render={(props) => <Maps />} />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
